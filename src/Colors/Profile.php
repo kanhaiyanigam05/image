@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Colors;
+namespace Kanhaiyanigam05\Image\Colors;
 
-use Intervention\Image\File;
-use Intervention\Image\Exceptions\RuntimeException;
-use Intervention\Image\Interfaces\ProfileInterface;
+use Kanhaiyanigam05\Image\File;
+use Kanhaiyanigam05\Image\Exceptions\RuntimeException;
+use Kanhaiyanigam05\Image\Interfaces\ProfileInterface;
 
 class Profile extends File implements ProfileInterface
 {

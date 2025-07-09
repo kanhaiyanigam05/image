@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Drivers;
+namespace Kanhaiyanigam05\Image\Drivers;
 
-use Intervention\Image\Exceptions\DecoderException;
-use Intervention\Image\Interfaces\ColorInterface;
-use Intervention\Image\Interfaces\ImageInterface;
-use Intervention\Image\Interfaces\SpecializableInterface;
-use Intervention\Image\Traits\CanBeDriverSpecialized;
+use Kanhaiyanigam05\Image\Exceptions\DecoderException;
+use Kanhaiyanigam05\Image\Interfaces\ColorInterface;
+use Kanhaiyanigam05\Image\Interfaces\ImageInterface;
+use Kanhaiyanigam05\Image\Interfaces\SpecializableInterface;
+use Kanhaiyanigam05\Image\Traits\CanBeDriverSpecialized;
 
 abstract class SpecializableDecoder extends AbstractDecoder implements SpecializableInterface
 {

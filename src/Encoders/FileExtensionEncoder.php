@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Encoders;
+namespace Kanhaiyanigam05\Image\Encoders;
 
 use Error;
-use Intervention\Image\Exceptions\EncoderException;
-use Intervention\Image\FileExtension;
-use Intervention\Image\Interfaces\EncodedImageInterface;
-use Intervention\Image\Interfaces\EncoderInterface;
-use Intervention\Image\Interfaces\ImageInterface;
+use Kanhaiyanigam05\Image\Exceptions\EncoderException;
+use Kanhaiyanigam05\Image\FileExtension;
+use Kanhaiyanigam05\Image\Interfaces\EncodedImageInterface;
+use Kanhaiyanigam05\Image\Interfaces\EncoderInterface;
+use Kanhaiyanigam05\Image\Interfaces\ImageInterface;
 
 class FileExtensionEncoder extends AutoEncoder
 {

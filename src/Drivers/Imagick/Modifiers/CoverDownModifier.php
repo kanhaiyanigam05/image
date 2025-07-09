@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Drivers\Imagick\Modifiers;
+namespace Kanhaiyanigam05\Image\Drivers\Imagick\Modifiers;
 
-use Intervention\Image\Exceptions\GeometryException;
-use Intervention\Image\Interfaces\SizeInterface;
+use Kanhaiyanigam05\Image\Exceptions\GeometryException;
+use Kanhaiyanigam05\Image\Interfaces\SizeInterface;
 
 class CoverDownModifier extends CoverModifier
 {

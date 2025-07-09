@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Drivers\Imagick\Modifiers;
+namespace Kanhaiyanigam05\Image\Drivers\Imagick\Modifiers;
 
 use Imagick;
-use Intervention\Image\Exceptions\NotSupportedException;
-use Intervention\Image\Interfaces\ColorspaceInterface;
-use Intervention\Image\Interfaces\ImageInterface;
-use Intervention\Image\Colors\Cmyk\Colorspace as CmykColorspace;
-use Intervention\Image\Colors\Rgb\Colorspace as RgbColorspace;
-use Intervention\Image\Interfaces\SpecializedInterface;
-use Intervention\Image\Modifiers\ColorspaceModifier as GenericColorspaceModifier;
+use Kanhaiyanigam05\Image\Exceptions\NotSupportedException;
+use Kanhaiyanigam05\Image\Interfaces\ColorspaceInterface;
+use Kanhaiyanigam05\Image\Interfaces\ImageInterface;
+use Kanhaiyanigam05\Image\Colors\Cmyk\Colorspace as CmykColorspace;
+use Kanhaiyanigam05\Image\Colors\Rgb\Colorspace as RgbColorspace;
+use Kanhaiyanigam05\Image\Interfaces\SpecializedInterface;
+use Kanhaiyanigam05\Image\Modifiers\ColorspaceModifier as GenericColorspaceModifier;
 
 class ColorspaceModifier extends GenericColorspaceModifier implements SpecializedInterface
 {

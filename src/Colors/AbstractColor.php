@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Colors;
+namespace Kanhaiyanigam05\Image\Colors;
 
-use Intervention\Image\Exceptions\ColorException;
-use Intervention\Image\Interfaces\ColorChannelInterface;
-use Intervention\Image\Interfaces\ColorInterface;
-use Intervention\Image\Interfaces\ColorspaceInterface;
+use Kanhaiyanigam05\Image\Exceptions\ColorException;
+use Kanhaiyanigam05\Image\Interfaces\ColorChannelInterface;
+use Kanhaiyanigam05\Image\Interfaces\ColorInterface;
+use Kanhaiyanigam05\Image\Interfaces\ColorspaceInterface;
 use ReflectionClass;
 use Stringable;
 

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Drivers;
+namespace Kanhaiyanigam05\Image\Drivers;
 
-use Intervention\Image\Interfaces\ImageInterface;
-use Intervention\Image\Interfaces\ModifierInterface;
+use Kanhaiyanigam05\Image\Interfaces\ImageInterface;
+use Kanhaiyanigam05\Image\Interfaces\ModifierInterface;
 
 abstract class SpecializableModifier extends Specializable implements ModifierInterface
 {

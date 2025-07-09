@@ -2,18 +2,18 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Drivers\Gd;
+namespace Kanhaiyanigam05\Image\Drivers\Gd;
 
-use Intervention\Image\Colors\Rgb\Channels\Alpha;
-use Intervention\Image\Colors\Rgb\Channels\Blue;
-use Intervention\Image\Colors\Rgb\Channels\Green;
-use Intervention\Image\Colors\Rgb\Channels\Red;
-use Intervention\Image\Colors\Rgb\Color;
-use Intervention\Image\Colors\Rgb\Colorspace;
-use Intervention\Image\Exceptions\ColorException;
-use Intervention\Image\Interfaces\ColorInterface;
-use Intervention\Image\Interfaces\ColorProcessorInterface;
-use Intervention\Image\Interfaces\ColorspaceInterface;
+use Kanhaiyanigam05\Image\Colors\Rgb\Channels\Alpha;
+use Kanhaiyanigam05\Image\Colors\Rgb\Channels\Blue;
+use Kanhaiyanigam05\Image\Colors\Rgb\Channels\Green;
+use Kanhaiyanigam05\Image\Colors\Rgb\Channels\Red;
+use Kanhaiyanigam05\Image\Colors\Rgb\Color;
+use Kanhaiyanigam05\Image\Colors\Rgb\Colorspace;
+use Kanhaiyanigam05\Image\Exceptions\ColorException;
+use Kanhaiyanigam05\Image\Interfaces\ColorInterface;
+use Kanhaiyanigam05\Image\Interfaces\ColorProcessorInterface;
+use Kanhaiyanigam05\Image\Interfaces\ColorspaceInterface;
 
 class ColorProcessor implements ColorProcessorInterface
 {
@@ -81,7 +81,7 @@ class ColorProcessor implements ColorProcessorInterface
             $b = $value & 0xFF;
         }
 
-        // convert gd apha integer to intervention alpha integer
+        // convert gd apha integer to Kanhaiyanigam05 alpha integer
         // ([opaque]0-127[transparent]) to ([opaque]255-0[transparent])
         $a = (int) static::convertRange($a, 127, 0, 0, 255);
 

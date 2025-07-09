@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image;
+namespace Kanhaiyanigam05\Image;
 
-use Intervention\Image\Interfaces\EncodedImageInterface;
+use Kanhaiyanigam05\Image\Interfaces\EncodedImageInterface;
 
 class EncodedImage extends File implements EncodedImageInterface
 {

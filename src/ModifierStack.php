@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image;
+namespace Kanhaiyanigam05\Image;
 
-use Intervention\Image\Interfaces\ImageInterface;
-use Intervention\Image\Interfaces\ModifierInterface;
+use Kanhaiyanigam05\Image\Interfaces\ImageInterface;
+use Kanhaiyanigam05\Image\Interfaces\ModifierInterface;
 
 class ModifierStack implements ModifierInterface
 {

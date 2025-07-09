@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Drivers\Imagick\Modifiers;
+namespace Kanhaiyanigam05\Image\Drivers\Imagick\Modifiers;
 
-use Intervention\Image\Exceptions\RuntimeException;
-use Intervention\Image\Interfaces\ImageInterface;
-use Intervention\Image\Interfaces\SizeInterface;
-use Intervention\Image\Interfaces\SpecializedInterface;
-use Intervention\Image\Modifiers\ResizeModifier as GenericResizeModifier;
+use Kanhaiyanigam05\Image\Exceptions\RuntimeException;
+use Kanhaiyanigam05\Image\Interfaces\ImageInterface;
+use Kanhaiyanigam05\Image\Interfaces\SizeInterface;
+use Kanhaiyanigam05\Image\Interfaces\SpecializedInterface;
+use Kanhaiyanigam05\Image\Modifiers\ResizeModifier as GenericResizeModifier;
 
 class ResizeModifier extends GenericResizeModifier implements SpecializedInterface
 {

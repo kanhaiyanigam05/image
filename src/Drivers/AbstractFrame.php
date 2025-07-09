@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Drivers;
+namespace Kanhaiyanigam05\Image\Drivers;
 
-use Intervention\Image\Interfaces\FrameInterface;
+use Kanhaiyanigam05\Image\Interfaces\FrameInterface;
 
 abstract class AbstractFrame implements FrameInterface
 {

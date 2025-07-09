@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Modifiers;
+namespace Kanhaiyanigam05\Image\Modifiers;
 
-use Intervention\Image\Drivers\SpecializableModifier;
-use Intervention\Image\Exceptions\RuntimeException;
-use Intervention\Image\Geometry\Rectangle;
-use Intervention\Image\Interfaces\ImageInterface;
-use Intervention\Image\Interfaces\SizeInterface;
+use Kanhaiyanigam05\Image\Drivers\SpecializableModifier;
+use Kanhaiyanigam05\Image\Exceptions\RuntimeException;
+use Kanhaiyanigam05\Image\Geometry\Rectangle;
+use Kanhaiyanigam05\Image\Interfaces\ImageInterface;
+use Kanhaiyanigam05\Image\Interfaces\SizeInterface;
 
 class CoverModifier extends SpecializableModifier
 {

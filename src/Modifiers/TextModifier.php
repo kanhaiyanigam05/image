@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Modifiers;
+namespace Kanhaiyanigam05\Image\Modifiers;
 
-use Intervention\Image\Drivers\SpecializableModifier;
-use Intervention\Image\Exceptions\ColorException;
-use Intervention\Image\Exceptions\RuntimeException;
-use Intervention\Image\Geometry\Point;
-use Intervention\Image\Interfaces\ColorInterface;
-use Intervention\Image\Interfaces\FontInterface;
-use Intervention\Image\Interfaces\PointInterface;
+use Kanhaiyanigam05\Image\Drivers\SpecializableModifier;
+use Kanhaiyanigam05\Image\Exceptions\ColorException;
+use Kanhaiyanigam05\Image\Exceptions\RuntimeException;
+use Kanhaiyanigam05\Image\Geometry\Point;
+use Kanhaiyanigam05\Image\Interfaces\ColorInterface;
+use Kanhaiyanigam05\Image\Interfaces\FontInterface;
+use Kanhaiyanigam05\Image\Interfaces\PointInterface;
 
 class TextModifier extends SpecializableModifier
 {

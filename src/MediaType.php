@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image;
+namespace Kanhaiyanigam05\Image;
 
 use Error;
-use Intervention\Image\Exceptions\NotSupportedException;
+use Kanhaiyanigam05\Image\Exceptions\NotSupportedException;
 
 enum MediaType: string
 {

@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Colors\Hsv\Decoders;
+namespace Kanhaiyanigam05\Image\Colors\Hsv\Decoders;
 
-use Intervention\Image\Colors\Hsv\Color;
-use Intervention\Image\Drivers\AbstractDecoder;
-use Intervention\Image\Exceptions\DecoderException;
-use Intervention\Image\Interfaces\ColorInterface;
-use Intervention\Image\Interfaces\DecoderInterface;
-use Intervention\Image\Interfaces\ImageInterface;
+use Kanhaiyanigam05\Image\Colors\Hsv\Color;
+use Kanhaiyanigam05\Image\Drivers\AbstractDecoder;
+use Kanhaiyanigam05\Image\Exceptions\DecoderException;
+use Kanhaiyanigam05\Image\Interfaces\ColorInterface;
+use Kanhaiyanigam05\Image\Interfaces\DecoderInterface;
+use Kanhaiyanigam05\Image\Interfaces\ImageInterface;
 
 class StringColorDecoder extends AbstractDecoder implements DecoderInterface
 {

@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Drivers\Imagick\Encoders;
+namespace Kanhaiyanigam05\Image\Drivers\Imagick\Encoders;
 
 use Imagick;
-use Intervention\Image\Drivers\Imagick\Modifiers\StripMetaModifier;
-use Intervention\Image\EncodedImage;
-use Intervention\Image\Encoders\Jpeg2000Encoder as GenericJpeg2000Encoder;
-use Intervention\Image\Interfaces\ImageInterface;
-use Intervention\Image\Interfaces\EncodedImageInterface;
-use Intervention\Image\Interfaces\SpecializedInterface;
+use Kanhaiyanigam05\Image\Drivers\Imagick\Modifiers\StripMetaModifier;
+use Kanhaiyanigam05\Image\EncodedImage;
+use Kanhaiyanigam05\Image\Encoders\Jpeg2000Encoder as GenericJpeg2000Encoder;
+use Kanhaiyanigam05\Image\Interfaces\ImageInterface;
+use Kanhaiyanigam05\Image\Interfaces\EncodedImageInterface;
+use Kanhaiyanigam05\Image\Interfaces\SpecializedInterface;
 
 class Jpeg2000Encoder extends GenericJpeg2000Encoder implements SpecializedInterface
 {

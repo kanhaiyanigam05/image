@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Drivers\Gd\Encoders;
+namespace Kanhaiyanigam05\Image\Drivers\Gd\Encoders;
 
-use Intervention\Image\EncodedImage;
-use Intervention\Image\Encoders\AvifEncoder as GenericAvifEncoder;
-use Intervention\Image\Interfaces\ImageInterface;
-use Intervention\Image\Interfaces\SpecializedInterface;
+use Kanhaiyanigam05\Image\EncodedImage;
+use Kanhaiyanigam05\Image\Encoders\AvifEncoder as GenericAvifEncoder;
+use Kanhaiyanigam05\Image\Interfaces\ImageInterface;
+use Kanhaiyanigam05\Image\Interfaces\SpecializedInterface;
 
 class AvifEncoder extends GenericAvifEncoder implements SpecializedInterface
 {

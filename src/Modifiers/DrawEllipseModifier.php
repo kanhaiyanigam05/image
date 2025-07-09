@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Modifiers;
+namespace Kanhaiyanigam05\Image\Modifiers;
 
-use Intervention\Image\Geometry\Ellipse;
-use Intervention\Image\Interfaces\DrawableInterface;
+use Kanhaiyanigam05\Image\Geometry\Ellipse;
+use Kanhaiyanigam05\Image\Interfaces\DrawableInterface;
 
 class DrawEllipseModifier extends AbstractDrawModifier
 {

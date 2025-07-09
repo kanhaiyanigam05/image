@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Geometry;
+namespace Kanhaiyanigam05\Image\Geometry;
 
-use Intervention\Image\Exceptions\GeometryException;
-use Intervention\Image\Geometry\Tools\RectangleResizer;
-use Intervention\Image\Interfaces\PointInterface;
-use Intervention\Image\Interfaces\SizeInterface;
+use Kanhaiyanigam05\Image\Exceptions\GeometryException;
+use Kanhaiyanigam05\Image\Geometry\Tools\RectangleResizer;
+use Kanhaiyanigam05\Image\Interfaces\PointInterface;
+use Kanhaiyanigam05\Image\Interfaces\SizeInterface;
 
 class Rectangle extends Polygon implements SizeInterface
 {

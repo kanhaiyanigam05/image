@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Drivers\Imagick\Modifiers;
+namespace Kanhaiyanigam05\Image\Drivers\Imagick\Modifiers;
 
 use ImagickDraw;
 use RuntimeException;
-use Intervention\Image\Interfaces\ImageInterface;
-use Intervention\Image\Interfaces\SpecializedInterface;
-use Intervention\Image\Modifiers\DrawLineModifier as GenericDrawLineModifier;
+use Kanhaiyanigam05\Image\Interfaces\ImageInterface;
+use Kanhaiyanigam05\Image\Interfaces\SpecializedInterface;
+use Kanhaiyanigam05\Image\Modifiers\DrawLineModifier as GenericDrawLineModifier;
 
 class DrawLineModifier extends GenericDrawLineModifier implements SpecializedInterface
 {

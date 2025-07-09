@@ -2,23 +2,23 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Drivers\Imagick\Modifiers;
+namespace Kanhaiyanigam05\Image\Drivers\Imagick\Modifiers;
 
 use ImagickDraw;
 use ImagickDrawException;
 use ImagickException;
-use Intervention\Image\Drivers\Imagick\FontProcessor;
-use Intervention\Image\Exceptions\ColorException;
-use Intervention\Image\Exceptions\FontException;
-use Intervention\Image\Exceptions\RuntimeException;
-use Intervention\Image\Geometry\Point;
-use Intervention\Image\Interfaces\FontInterface;
-use Intervention\Image\Interfaces\FrameInterface;
-use Intervention\Image\Interfaces\ImageInterface;
-use Intervention\Image\Interfaces\PointInterface;
-use Intervention\Image\Interfaces\SpecializedInterface;
-use Intervention\Image\Modifiers\TextModifier as GenericTextModifier;
-use Intervention\Image\Typography\Line;
+use Kanhaiyanigam05\Image\Drivers\Imagick\FontProcessor;
+use Kanhaiyanigam05\Image\Exceptions\ColorException;
+use Kanhaiyanigam05\Image\Exceptions\FontException;
+use Kanhaiyanigam05\Image\Exceptions\RuntimeException;
+use Kanhaiyanigam05\Image\Geometry\Point;
+use Kanhaiyanigam05\Image\Interfaces\FontInterface;
+use Kanhaiyanigam05\Image\Interfaces\FrameInterface;
+use Kanhaiyanigam05\Image\Interfaces\ImageInterface;
+use Kanhaiyanigam05\Image\Interfaces\PointInterface;
+use Kanhaiyanigam05\Image\Interfaces\SpecializedInterface;
+use Kanhaiyanigam05\Image\Modifiers\TextModifier as GenericTextModifier;
+use Kanhaiyanigam05\Image\Typography\Line;
 
 class TextModifier extends GenericTextModifier implements SpecializedInterface
 {

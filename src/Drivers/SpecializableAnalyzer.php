@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Drivers;
+namespace Kanhaiyanigam05\Image\Drivers;
 
-use Intervention\Image\Interfaces\AnalyzerInterface;
-use Intervention\Image\Interfaces\ImageInterface;
+use Kanhaiyanigam05\Image\Interfaces\AnalyzerInterface;
+use Kanhaiyanigam05\Image\Interfaces\ImageInterface;
 
 abstract class SpecializableAnalyzer extends Specializable implements AnalyzerInterface
 {

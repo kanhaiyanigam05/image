@@ -2,21 +2,21 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Drivers;
+namespace Kanhaiyanigam05\Image\Drivers;
 
-use Intervention\Image\Config;
-use Intervention\Image\Exceptions\DriverException;
-use Intervention\Image\Exceptions\NotSupportedException;
-use Intervention\Image\InputHandler;
-use Intervention\Image\Interfaces\AnalyzerInterface;
-use Intervention\Image\Interfaces\ColorInterface;
-use Intervention\Image\Interfaces\DecoderInterface;
-use Intervention\Image\Interfaces\DriverInterface;
-use Intervention\Image\Interfaces\EncoderInterface;
-use Intervention\Image\Interfaces\ImageInterface;
-use Intervention\Image\Interfaces\ModifierInterface;
-use Intervention\Image\Interfaces\SpecializableInterface;
-use Intervention\Image\Interfaces\SpecializedInterface;
+use Kanhaiyanigam05\Image\Config;
+use Kanhaiyanigam05\Image\Exceptions\DriverException;
+use Kanhaiyanigam05\Image\Exceptions\NotSupportedException;
+use Kanhaiyanigam05\Image\InputHandler;
+use Kanhaiyanigam05\Image\Interfaces\AnalyzerInterface;
+use Kanhaiyanigam05\Image\Interfaces\ColorInterface;
+use Kanhaiyanigam05\Image\Interfaces\DecoderInterface;
+use Kanhaiyanigam05\Image\Interfaces\DriverInterface;
+use Kanhaiyanigam05\Image\Interfaces\EncoderInterface;
+use Kanhaiyanigam05\Image\Interfaces\ImageInterface;
+use Kanhaiyanigam05\Image\Interfaces\ModifierInterface;
+use Kanhaiyanigam05\Image\Interfaces\SpecializableInterface;
+use Kanhaiyanigam05\Image\Interfaces\SpecializedInterface;
 use ReflectionClass;
 
 abstract class AbstractDriver implements DriverInterface
@@ -78,7 +78,7 @@ abstract class AbstractDriver implements DriverInterface
 
         // resolve classname for specializable object
         $driver_namespace = (new ReflectionClass($this))->getNamespaceName();
-        $object_path = substr($object::class, strlen("Intervention\\Image\\"));
+        $object_path = substr($object::class, strlen("Kanhaiyanigam05\\Image\\"));
         $specialized_classname = $driver_namespace . "\\" . $object_path;
 
         if (!class_exists($specialized_classname)) {

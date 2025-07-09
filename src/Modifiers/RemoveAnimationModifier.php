@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Modifiers;
+namespace Kanhaiyanigam05\Image\Modifiers;
 
-use Intervention\Image\Drivers\SpecializableModifier;
-use Intervention\Image\Exceptions\InputException;
-use Intervention\Image\Exceptions\RuntimeException;
-use Intervention\Image\Interfaces\FrameInterface;
-use Intervention\Image\Interfaces\ImageInterface;
+use Kanhaiyanigam05\Image\Drivers\SpecializableModifier;
+use Kanhaiyanigam05\Image\Exceptions\InputException;
+use Kanhaiyanigam05\Image\Exceptions\RuntimeException;
+use Kanhaiyanigam05\Image\Interfaces\FrameInterface;
+use Kanhaiyanigam05\Image\Interfaces\ImageInterface;
 
 class RemoveAnimationModifier extends SpecializableModifier
 {

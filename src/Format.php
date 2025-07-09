@@ -2,20 +2,20 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image;
+namespace Kanhaiyanigam05\Image;
 
 use Error;
-use Intervention\Image\Encoders\AvifEncoder;
-use Intervention\Image\Encoders\BmpEncoder;
-use Intervention\Image\Encoders\GifEncoder;
-use Intervention\Image\Encoders\HeicEncoder;
-use Intervention\Image\Encoders\Jpeg2000Encoder;
-use Intervention\Image\Encoders\JpegEncoder;
-use Intervention\Image\Encoders\PngEncoder;
-use Intervention\Image\Encoders\TiffEncoder;
-use Intervention\Image\Encoders\WebpEncoder;
-use Intervention\Image\Exceptions\NotSupportedException;
-use Intervention\Image\Interfaces\EncoderInterface;
+use Kanhaiyanigam05\Image\Encoders\AvifEncoder;
+use Kanhaiyanigam05\Image\Encoders\BmpEncoder;
+use Kanhaiyanigam05\Image\Encoders\GifEncoder;
+use Kanhaiyanigam05\Image\Encoders\HeicEncoder;
+use Kanhaiyanigam05\Image\Encoders\Jpeg2000Encoder;
+use Kanhaiyanigam05\Image\Encoders\JpegEncoder;
+use Kanhaiyanigam05\Image\Encoders\PngEncoder;
+use Kanhaiyanigam05\Image\Encoders\TiffEncoder;
+use Kanhaiyanigam05\Image\Encoders\WebpEncoder;
+use Kanhaiyanigam05\Image\Exceptions\NotSupportedException;
+use Kanhaiyanigam05\Image\Interfaces\EncoderInterface;
 use ReflectionClass;
 use ReflectionParameter;
 

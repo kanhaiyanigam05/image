@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Drivers\Gd\Decoders;
+namespace Kanhaiyanigam05\Image\Drivers\Gd\Decoders;
 
 use Exception;
 use GdImage;
-use Intervention\Gif\Decoder as GifDecoder;
-use Intervention\Gif\Splitter as GifSplitter;
-use Intervention\Image\Drivers\Gd\Core;
-use Intervention\Image\Drivers\Gd\Frame;
-use Intervention\Image\Exceptions\DecoderException;
-use Intervention\Image\Exceptions\RuntimeException;
-use Intervention\Image\Image;
-use Intervention\Image\Interfaces\ColorInterface;
-use Intervention\Image\Interfaces\ImageInterface;
+use Kanhaiyanigam05\Gif\Decoder as GifDecoder;
+use Kanhaiyanigam05\Gif\Splitter as GifSplitter;
+use Kanhaiyanigam05\Image\Drivers\Gd\Core;
+use Kanhaiyanigam05\Image\Drivers\Gd\Frame;
+use Kanhaiyanigam05\Image\Exceptions\DecoderException;
+use Kanhaiyanigam05\Image\Exceptions\RuntimeException;
+use Kanhaiyanigam05\Image\Image;
+use Kanhaiyanigam05\Image\Interfaces\ColorInterface;
+use Kanhaiyanigam05\Image\Interfaces\ImageInterface;
 
 class NativeObjectDecoder extends AbstractDecoder
 {

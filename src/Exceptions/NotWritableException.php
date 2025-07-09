@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Exceptions;
+namespace Kanhaiyanigam05\Image\Exceptions;
 
 class NotWritableException extends RuntimeException
 {

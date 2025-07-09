@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Decoders;
+namespace Kanhaiyanigam05\Image\Decoders;
 
-use Intervention\Image\Drivers\AbstractDecoder;
-use Intervention\Image\Exceptions\DecoderException;
-use Intervention\Image\Interfaces\ImageInterface;
-use Intervention\Image\Interfaces\ColorInterface;
+use Kanhaiyanigam05\Image\Drivers\AbstractDecoder;
+use Kanhaiyanigam05\Image\Exceptions\DecoderException;
+use Kanhaiyanigam05\Image\Interfaces\ImageInterface;
+use Kanhaiyanigam05\Image\Interfaces\ColorInterface;
 
 class ImageObjectDecoder extends AbstractDecoder
 {

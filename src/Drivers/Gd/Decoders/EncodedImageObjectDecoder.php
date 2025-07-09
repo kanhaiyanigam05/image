@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Drivers\Gd\Decoders;
+namespace Kanhaiyanigam05\Image\Drivers\Gd\Decoders;
 
-use Intervention\Image\EncodedImage;
-use Intervention\Image\Exceptions\DecoderException;
-use Intervention\Image\Interfaces\ImageInterface;
-use Intervention\Image\Interfaces\ColorInterface;
+use Kanhaiyanigam05\Image\EncodedImage;
+use Kanhaiyanigam05\Image\Exceptions\DecoderException;
+use Kanhaiyanigam05\Image\Interfaces\ImageInterface;
+use Kanhaiyanigam05\Image\Interfaces\ColorInterface;
 
 class EncodedImageObjectDecoder extends BinaryImageDecoder
 {

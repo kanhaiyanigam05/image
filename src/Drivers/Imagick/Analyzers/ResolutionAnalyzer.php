@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Drivers\Imagick\Analyzers;
+namespace Kanhaiyanigam05\Image\Drivers\Imagick\Analyzers;
 
-use Intervention\Image\Analyzers\ResolutionAnalyzer as GenericResolutionAnalyzer;
-use Intervention\Image\Interfaces\ImageInterface;
-use Intervention\Image\Interfaces\SpecializedInterface;
-use Intervention\Image\Resolution;
+use Kanhaiyanigam05\Image\Analyzers\ResolutionAnalyzer as GenericResolutionAnalyzer;
+use Kanhaiyanigam05\Image\Interfaces\ImageInterface;
+use Kanhaiyanigam05\Image\Interfaces\SpecializedInterface;
+use Kanhaiyanigam05\Image\Resolution;
 
 class ResolutionAnalyzer extends GenericResolutionAnalyzer implements SpecializedInterface
 {

@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Drivers\Imagick\Modifiers;
+namespace Kanhaiyanigam05\Image\Drivers\Imagick\Modifiers;
 
-use Intervention\Image\Exceptions\AnimationException;
-use Intervention\Image\Interfaces\ImageInterface;
-use Intervention\Image\Interfaces\SpecializedInterface;
-use Intervention\Image\Modifiers\SliceAnimationModifier as GenericSliceAnimationModifier;
+use Kanhaiyanigam05\Image\Exceptions\AnimationException;
+use Kanhaiyanigam05\Image\Interfaces\ImageInterface;
+use Kanhaiyanigam05\Image\Interfaces\SpecializedInterface;
+use Kanhaiyanigam05\Image\Modifiers\SliceAnimationModifier as GenericSliceAnimationModifier;
 
 class SliceAnimationModifier extends GenericSliceAnimationModifier implements SpecializedInterface
 {

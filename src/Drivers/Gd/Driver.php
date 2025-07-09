@@ -2,20 +2,20 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Drivers\Gd;
+namespace Kanhaiyanigam05\Image\Drivers\Gd;
 
-use Intervention\Image\Drivers\AbstractDriver;
-use Intervention\Image\Exceptions\DriverException;
-use Intervention\Image\Exceptions\RuntimeException;
-use Intervention\Image\Format;
-use Intervention\Image\FileExtension;
-use Intervention\Image\Image;
-use Intervention\Image\Interfaces\ColorProcessorInterface;
-use Intervention\Image\Interfaces\ColorspaceInterface;
-use Intervention\Image\Interfaces\DriverInterface;
-use Intervention\Image\Interfaces\FontProcessorInterface;
-use Intervention\Image\Interfaces\ImageInterface;
-use Intervention\Image\MediaType;
+use Kanhaiyanigam05\Image\Drivers\AbstractDriver;
+use Kanhaiyanigam05\Image\Exceptions\DriverException;
+use Kanhaiyanigam05\Image\Exceptions\RuntimeException;
+use Kanhaiyanigam05\Image\Format;
+use Kanhaiyanigam05\Image\FileExtension;
+use Kanhaiyanigam05\Image\Image;
+use Kanhaiyanigam05\Image\Interfaces\ColorProcessorInterface;
+use Kanhaiyanigam05\Image\Interfaces\ColorspaceInterface;
+use Kanhaiyanigam05\Image\Interfaces\DriverInterface;
+use Kanhaiyanigam05\Image\Interfaces\FontProcessorInterface;
+use Kanhaiyanigam05\Image\Interfaces\ImageInterface;
+use Kanhaiyanigam05\Image\MediaType;
 
 class Driver extends AbstractDriver
 {

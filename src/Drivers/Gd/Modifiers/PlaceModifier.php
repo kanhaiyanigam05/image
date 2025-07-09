@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Drivers\Gd\Modifiers;
+namespace Kanhaiyanigam05\Image\Drivers\Gd\Modifiers;
 
-use Intervention\Image\Exceptions\RuntimeException;
-use Intervention\Image\Interfaces\FrameInterface;
-use Intervention\Image\Interfaces\ImageInterface;
-use Intervention\Image\Interfaces\PointInterface;
-use Intervention\Image\Interfaces\SpecializedInterface;
-use Intervention\Image\Modifiers\PlaceModifier as GenericPlaceModifier;
+use Kanhaiyanigam05\Image\Exceptions\RuntimeException;
+use Kanhaiyanigam05\Image\Interfaces\FrameInterface;
+use Kanhaiyanigam05\Image\Interfaces\ImageInterface;
+use Kanhaiyanigam05\Image\Interfaces\PointInterface;
+use Kanhaiyanigam05\Image\Interfaces\SpecializedInterface;
+use Kanhaiyanigam05\Image\Modifiers\PlaceModifier as GenericPlaceModifier;
 
 class PlaceModifier extends GenericPlaceModifier implements SpecializedInterface
 {

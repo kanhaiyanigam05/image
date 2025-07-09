@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Encoders;
+namespace Kanhaiyanigam05\Image\Encoders;
 
 use Error;
-use Intervention\Image\Drivers\AbstractEncoder;
-use Intervention\Image\Exceptions\EncoderException;
-use Intervention\Image\Interfaces\EncodedImageInterface;
-use Intervention\Image\Interfaces\EncoderInterface;
-use Intervention\Image\Interfaces\ImageInterface;
-use Intervention\Image\MediaType;
+use Kanhaiyanigam05\Image\Drivers\AbstractEncoder;
+use Kanhaiyanigam05\Image\Exceptions\EncoderException;
+use Kanhaiyanigam05\Image\Interfaces\EncodedImageInterface;
+use Kanhaiyanigam05\Image\Interfaces\EncoderInterface;
+use Kanhaiyanigam05\Image\Interfaces\ImageInterface;
+use Kanhaiyanigam05\Image\MediaType;
 
 class MediaTypeEncoder extends AbstractEncoder
 {

@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Drivers\Imagick;
+namespace Kanhaiyanigam05\Image\Drivers\Imagick;
 
 use Imagick;
 use ImagickPixel;
-use Intervention\Image\Colors\Cmyk\Colorspace as CmykColorspace;
-use Intervention\Image\Interfaces\ColorInterface;
-use Intervention\Image\Interfaces\ColorProcessorInterface;
-use Intervention\Image\Interfaces\ColorspaceInterface;
+use Kanhaiyanigam05\Image\Colors\Cmyk\Colorspace as CmykColorspace;
+use Kanhaiyanigam05\Image\Interfaces\ColorInterface;
+use Kanhaiyanigam05\Image\Interfaces\ColorProcessorInterface;
+use Kanhaiyanigam05\Image\Interfaces\ColorspaceInterface;
 
 class ColorProcessor implements ColorProcessorInterface
 {

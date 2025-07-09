@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Interfaces;
+namespace Kanhaiyanigam05\Image\Interfaces;
 
-use Intervention\Image\Exceptions\AnimationException;
+use Kanhaiyanigam05\Image\Exceptions\AnimationException;
 
 interface CoreInterface extends CollectionInterface
 {

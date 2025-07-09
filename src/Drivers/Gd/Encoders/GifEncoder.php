@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Drivers\Gd\Encoders;
+namespace Kanhaiyanigam05\Image\Drivers\Gd\Encoders;
 
 use Exception;
-use Intervention\Gif\Builder as GifBuilder;
-use Intervention\Image\Drivers\Gd\Cloner;
-use Intervention\Image\EncodedImage;
-use Intervention\Image\Encoders\GifEncoder as GenericGifEncoder;
-use Intervention\Image\Exceptions\EncoderException;
-use Intervention\Image\Exceptions\RuntimeException;
-use Intervention\Image\Interfaces\ImageInterface;
-use Intervention\Image\Interfaces\SpecializedInterface;
+use Kanhaiyanigam05\Gif\Builder as GifBuilder;
+use Kanhaiyanigam05\Image\Drivers\Gd\Cloner;
+use Kanhaiyanigam05\Image\EncodedImage;
+use Kanhaiyanigam05\Image\Encoders\GifEncoder as GenericGifEncoder;
+use Kanhaiyanigam05\Image\Exceptions\EncoderException;
+use Kanhaiyanigam05\Image\Exceptions\RuntimeException;
+use Kanhaiyanigam05\Image\Interfaces\ImageInterface;
+use Kanhaiyanigam05\Image\Interfaces\SpecializedInterface;
 
 class GifEncoder extends GenericGifEncoder implements SpecializedInterface
 {

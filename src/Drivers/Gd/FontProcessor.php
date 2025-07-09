@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Drivers\Gd;
+namespace Kanhaiyanigam05\Image\Drivers\Gd;
 
-use Intervention\Image\Drivers\AbstractFontProcessor;
-use Intervention\Image\Geometry\Point;
-use Intervention\Image\Geometry\Rectangle;
-use Intervention\Image\Interfaces\FontInterface;
-use Intervention\Image\Interfaces\SizeInterface;
+use Kanhaiyanigam05\Image\Drivers\AbstractFontProcessor;
+use Kanhaiyanigam05\Image\Geometry\Point;
+use Kanhaiyanigam05\Image\Geometry\Rectangle;
+use Kanhaiyanigam05\Image\Interfaces\FontInterface;
+use Kanhaiyanigam05\Image\Interfaces\SizeInterface;
 
 class FontProcessor extends AbstractFontProcessor
 {

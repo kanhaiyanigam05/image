@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Drivers\Gd\Modifiers;
+namespace Kanhaiyanigam05\Image\Drivers\Gd\Modifiers;
 
-use Intervention\Image\Colors\Rgb\Channels\Blue;
-use Intervention\Image\Colors\Rgb\Channels\Green;
-use Intervention\Image\Colors\Rgb\Channels\Red;
-use Intervention\Image\Drivers\Gd\Cloner;
-use Intervention\Image\Exceptions\ColorException;
-use Intervention\Image\Geometry\Rectangle;
-use Intervention\Image\Interfaces\ColorInterface;
-use Intervention\Image\Interfaces\FrameInterface;
-use Intervention\Image\Interfaces\ImageInterface;
-use Intervention\Image\Interfaces\SpecializedInterface;
-use Intervention\Image\Modifiers\RotateModifier as GenericRotateModifier;
+use Kanhaiyanigam05\Image\Colors\Rgb\Channels\Blue;
+use Kanhaiyanigam05\Image\Colors\Rgb\Channels\Green;
+use Kanhaiyanigam05\Image\Colors\Rgb\Channels\Red;
+use Kanhaiyanigam05\Image\Drivers\Gd\Cloner;
+use Kanhaiyanigam05\Image\Exceptions\ColorException;
+use Kanhaiyanigam05\Image\Geometry\Rectangle;
+use Kanhaiyanigam05\Image\Interfaces\ColorInterface;
+use Kanhaiyanigam05\Image\Interfaces\FrameInterface;
+use Kanhaiyanigam05\Image\Interfaces\ImageInterface;
+use Kanhaiyanigam05\Image\Interfaces\SpecializedInterface;
+use Kanhaiyanigam05\Image\Modifiers\RotateModifier as GenericRotateModifier;
 
 class RotateModifier extends GenericRotateModifier implements SpecializedInterface
 {

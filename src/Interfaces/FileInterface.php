@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Interfaces;
+namespace Kanhaiyanigam05\Image\Interfaces;
 
-use Intervention\Image\Exceptions\RuntimeException;
+use Kanhaiyanigam05\Image\Exceptions\RuntimeException;
 
 interface FileInterface
 {

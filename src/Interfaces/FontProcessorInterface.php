@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Interfaces;
+namespace Kanhaiyanigam05\Image\Interfaces;
 
-use Intervention\Image\Exceptions\FontException;
-use Intervention\Image\Typography\TextBlock;
+use Kanhaiyanigam05\Image\Exceptions\FontException;
+use Kanhaiyanigam05\Image\Typography\TextBlock;
 
 interface FontProcessorInterface
 {

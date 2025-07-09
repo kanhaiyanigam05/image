@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Drivers\Imagick;
+namespace Kanhaiyanigam05\Image\Drivers\Imagick;
 
 use Imagick;
 use ImagickException;
 use Iterator;
-use Intervention\Image\Interfaces\CoreInterface;
-use Intervention\Image\Exceptions\AnimationException;
-use Intervention\Image\Interfaces\CollectionInterface;
-use Intervention\Image\Interfaces\FrameInterface;
+use Kanhaiyanigam05\Image\Interfaces\CoreInterface;
+use Kanhaiyanigam05\Image\Exceptions\AnimationException;
+use Kanhaiyanigam05\Image\Interfaces\CollectionInterface;
+use Kanhaiyanigam05\Image\Interfaces\FrameInterface;
 
 /**
  * @implements Iterator<FrameInterface>

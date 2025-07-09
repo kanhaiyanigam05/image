@@ -2,23 +2,23 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image;
+namespace Kanhaiyanigam05\Image;
 
-use Intervention\Image\Interfaces\DriverInterface;
-use Intervention\Image\Interfaces\ImageInterface;
-use Intervention\Image\Drivers\Gd\Driver as GdDriver;
-use Intervention\Image\Drivers\Imagick\Driver as ImagickDriver;
-use Intervention\Image\Exceptions\DriverException;
-use Intervention\Image\Exceptions\InputException;
-use Intervention\Image\Interfaces\DecoderInterface;
-use Intervention\Image\Interfaces\ImageManagerInterface;
+use Kanhaiyanigam05\Image\Interfaces\DriverInterface;
+use Kanhaiyanigam05\Image\Interfaces\ImageInterface;
+use Kanhaiyanigam05\Image\Drivers\Gd\Driver as GdDriver;
+use Kanhaiyanigam05\Image\Drivers\Imagick\Driver as ImagickDriver;
+use Kanhaiyanigam05\Image\Exceptions\DriverException;
+use Kanhaiyanigam05\Image\Exceptions\InputException;
+use Kanhaiyanigam05\Image\Interfaces\DecoderInterface;
+use Kanhaiyanigam05\Image\Interfaces\ImageManagerInterface;
 
 final class ImageManager implements ImageManagerInterface
 {
     private DriverInterface $driver;
 
     /**
-     * @link https://image.intervention.io/v3/basics/configuration-drivers#create-a-new-image-manager-instance
+     * @link https://image.Kanhaiyanigam05.io/v3/basics/configuration-drivers#create-a-new-image-manager-instance
      *
      * @throws DriverException
      * @throws InputException
@@ -31,7 +31,7 @@ final class ImageManager implements ImageManagerInterface
     /**
      * Create image manager with given driver
      *
-     * @link https://image.intervention.io/v3/basics/configuration-drivers#static-constructor
+     * @link https://image.Kanhaiyanigam05.io/v3/basics/configuration-drivers#static-constructor
      *
      * @throws DriverException
      * @throws InputException
@@ -44,7 +44,7 @@ final class ImageManager implements ImageManagerInterface
     /**
      * Create image manager with GD driver
      *
-     * @link https://image.intervention.io/v3/basics/configuration-drivers#static-gd-driver-constructor
+     * @link https://image.Kanhaiyanigam05.io/v3/basics/configuration-drivers#static-gd-driver-constructor
      *
      * @throws DriverException
      * @throws InputException
@@ -57,7 +57,7 @@ final class ImageManager implements ImageManagerInterface
     /**
      * Create image manager with Imagick driver
      *
-     * @link https://image.intervention.io/v3/basics/configuration-drivers#static-imagick-driver-constructor
+     * @link https://image.Kanhaiyanigam05.io/v3/basics/configuration-drivers#static-imagick-driver-constructor
      *
      * @throws DriverException
      * @throws InputException

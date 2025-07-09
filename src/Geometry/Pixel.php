@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Geometry;
+namespace Kanhaiyanigam05\Image\Geometry;
 
-use Intervention\Image\Interfaces\ColorInterface;
+use Kanhaiyanigam05\Image\Interfaces\ColorInterface;
 
 class Pixel extends Point
 {

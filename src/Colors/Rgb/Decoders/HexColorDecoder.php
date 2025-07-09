@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Colors\Rgb\Decoders;
+namespace Kanhaiyanigam05\Image\Colors\Rgb\Decoders;
 
-use Intervention\Image\Colors\Rgb\Color;
-use Intervention\Image\Drivers\AbstractDecoder;
-use Intervention\Image\Exceptions\DecoderException;
-use Intervention\Image\Interfaces\ColorInterface;
-use Intervention\Image\Interfaces\DecoderInterface;
-use Intervention\Image\Interfaces\ImageInterface;
+use Kanhaiyanigam05\Image\Colors\Rgb\Color;
+use Kanhaiyanigam05\Image\Drivers\AbstractDecoder;
+use Kanhaiyanigam05\Image\Exceptions\DecoderException;
+use Kanhaiyanigam05\Image\Interfaces\ColorInterface;
+use Kanhaiyanigam05\Image\Interfaces\DecoderInterface;
+use Kanhaiyanigam05\Image\Interfaces\ImageInterface;
 
 class HexColorDecoder extends AbstractDecoder implements DecoderInterface
 {

@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Drivers\Gd\Modifiers;
+namespace Kanhaiyanigam05\Image\Drivers\Gd\Modifiers;
 
-use Intervention\Image\Colors\Rgb\Colorspace as RgbColorspace;
-use Intervention\Image\Exceptions\NotSupportedException;
-use Intervention\Image\Interfaces\ImageInterface;
-use Intervention\Image\Interfaces\SpecializedInterface;
-use Intervention\Image\Modifiers\ColorspaceModifier as GenericColorspaceModifier;
+use Kanhaiyanigam05\Image\Colors\Rgb\Colorspace as RgbColorspace;
+use Kanhaiyanigam05\Image\Exceptions\NotSupportedException;
+use Kanhaiyanigam05\Image\Interfaces\ImageInterface;
+use Kanhaiyanigam05\Image\Interfaces\SpecializedInterface;
+use Kanhaiyanigam05\Image\Modifiers\ColorspaceModifier as GenericColorspaceModifier;
 
 class ColorspaceModifier extends GenericColorspaceModifier implements SpecializedInterface
 {

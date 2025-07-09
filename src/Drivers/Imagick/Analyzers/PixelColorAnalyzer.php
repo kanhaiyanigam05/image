@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Drivers\Imagick\Analyzers;
+namespace Kanhaiyanigam05\Image\Drivers\Imagick\Analyzers;
 
 use Imagick;
-use Intervention\Image\Analyzers\PixelColorAnalyzer as GenericPixelColorAnalyzer;
-use Intervention\Image\Exceptions\ColorException;
-use Intervention\Image\Interfaces\ColorInterface;
-use Intervention\Image\Interfaces\ColorspaceInterface;
-use Intervention\Image\Interfaces\ImageInterface;
-use Intervention\Image\Interfaces\SpecializedInterface;
+use Kanhaiyanigam05\Image\Analyzers\PixelColorAnalyzer as GenericPixelColorAnalyzer;
+use Kanhaiyanigam05\Image\Exceptions\ColorException;
+use Kanhaiyanigam05\Image\Interfaces\ColorInterface;
+use Kanhaiyanigam05\Image\Interfaces\ColorspaceInterface;
+use Kanhaiyanigam05\Image\Interfaces\ImageInterface;
+use Kanhaiyanigam05\Image\Interfaces\SpecializedInterface;
 
 class PixelColorAnalyzer extends GenericPixelColorAnalyzer implements SpecializedInterface
 {

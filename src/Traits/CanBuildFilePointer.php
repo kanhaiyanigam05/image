@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Traits;
+namespace Kanhaiyanigam05\Image\Traits;
 
-use Intervention\Image\Exceptions\RuntimeException;
+use Kanhaiyanigam05\Image\Exceptions\RuntimeException;
 
 trait CanBuildFilePointer
 {

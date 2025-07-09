@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Interfaces;
+namespace Kanhaiyanigam05\Image\Interfaces;
 
-use Intervention\Image\Config;
-use Intervention\Image\Exceptions\DriverException;
-use Intervention\Image\Exceptions\NotSupportedException;
-use Intervention\Image\Exceptions\RuntimeException;
-use Intervention\Image\FileExtension;
-use Intervention\Image\Format;
-use Intervention\Image\MediaType;
+use Kanhaiyanigam05\Image\Config;
+use Kanhaiyanigam05\Image\Exceptions\DriverException;
+use Kanhaiyanigam05\Image\Exceptions\NotSupportedException;
+use Kanhaiyanigam05\Image\Exceptions\RuntimeException;
+use Kanhaiyanigam05\Image\FileExtension;
+use Kanhaiyanigam05\Image\Format;
+use Kanhaiyanigam05\Image\MediaType;
 
 interface DriverInterface
 {

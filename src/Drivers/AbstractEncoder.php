@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Drivers;
+namespace Kanhaiyanigam05\Image\Drivers;
 
-use Intervention\Image\EncodedImage;
-use Intervention\Image\Exceptions\RuntimeException;
-use Intervention\Image\Interfaces\EncodedImageInterface;
-use Intervention\Image\Interfaces\EncoderInterface;
-use Intervention\Image\Interfaces\ImageInterface;
-use Intervention\Image\Traits\CanBuildFilePointer;
+use Kanhaiyanigam05\Image\EncodedImage;
+use Kanhaiyanigam05\Image\Exceptions\RuntimeException;
+use Kanhaiyanigam05\Image\Interfaces\EncodedImageInterface;
+use Kanhaiyanigam05\Image\Interfaces\EncoderInterface;
+use Kanhaiyanigam05\Image\Interfaces\ImageInterface;
+use Kanhaiyanigam05\Image\Traits\CanBuildFilePointer;
 
 abstract class AbstractEncoder implements EncoderInterface
 {

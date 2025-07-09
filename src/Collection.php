@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image;
+namespace Kanhaiyanigam05\Image;
 
-use Intervention\Image\Interfaces\CollectionInterface;
+use Kanhaiyanigam05\Image\Interfaces\CollectionInterface;
 use ArrayIterator;
 use Countable;
 use Traversable;

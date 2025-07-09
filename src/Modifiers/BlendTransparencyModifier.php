@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Modifiers;
+namespace Kanhaiyanigam05\Image\Modifiers;
 
-use Intervention\Image\Colors\Rgb\Channels\Blue;
-use Intervention\Image\Colors\Rgb\Channels\Green;
-use Intervention\Image\Colors\Rgb\Channels\Red;
-use Intervention\Image\Colors\Rgb\Color;
-use Intervention\Image\Drivers\SpecializableModifier;
-use Intervention\Image\Exceptions\ColorException;
-use Intervention\Image\Exceptions\RuntimeException;
-use Intervention\Image\Interfaces\ColorInterface;
-use Intervention\Image\Interfaces\DriverInterface;
+use Kanhaiyanigam05\Image\Colors\Rgb\Channels\Blue;
+use Kanhaiyanigam05\Image\Colors\Rgb\Channels\Green;
+use Kanhaiyanigam05\Image\Colors\Rgb\Channels\Red;
+use Kanhaiyanigam05\Image\Colors\Rgb\Color;
+use Kanhaiyanigam05\Image\Drivers\SpecializableModifier;
+use Kanhaiyanigam05\Image\Exceptions\ColorException;
+use Kanhaiyanigam05\Image\Exceptions\RuntimeException;
+use Kanhaiyanigam05\Image\Interfaces\ColorInterface;
+use Kanhaiyanigam05\Image\Interfaces\DriverInterface;
 
 class BlendTransparencyModifier extends SpecializableModifier
 {

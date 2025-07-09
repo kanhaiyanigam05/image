@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Colors\Hsv;
+namespace Kanhaiyanigam05\Image\Colors\Hsv;
 
-use Intervention\Image\Colors\Cmyk\Color as CmykColor;
-use Intervention\Image\Colors\Rgb\Color as RgbColor;
-use Intervention\Image\Colors\Hsl\Color as HslColor;
-use Intervention\Image\Colors\Rgb\Colorspace as RgbColorspace;
-use Intervention\Image\Exceptions\ColorException;
-use Intervention\Image\Interfaces\ColorChannelInterface;
-use Intervention\Image\Interfaces\ColorInterface;
-use Intervention\Image\Interfaces\ColorspaceInterface;
+use Kanhaiyanigam05\Image\Colors\Cmyk\Color as CmykColor;
+use Kanhaiyanigam05\Image\Colors\Rgb\Color as RgbColor;
+use Kanhaiyanigam05\Image\Colors\Hsl\Color as HslColor;
+use Kanhaiyanigam05\Image\Colors\Rgb\Colorspace as RgbColorspace;
+use Kanhaiyanigam05\Image\Exceptions\ColorException;
+use Kanhaiyanigam05\Image\Interfaces\ColorChannelInterface;
+use Kanhaiyanigam05\Image\Interfaces\ColorInterface;
+use Kanhaiyanigam05\Image\Interfaces\ColorspaceInterface;
 
 class Colorspace implements ColorspaceInterface
 {

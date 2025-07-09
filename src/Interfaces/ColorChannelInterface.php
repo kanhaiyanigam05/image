@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Interfaces;
+namespace Kanhaiyanigam05\Image\Interfaces;
 
-use Intervention\Image\Exceptions\ColorException;
+use Kanhaiyanigam05\Image\Exceptions\ColorException;
 
 interface ColorChannelInterface
 {

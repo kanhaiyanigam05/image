@@ -2,22 +2,22 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Interfaces;
+namespace Kanhaiyanigam05\Image\Interfaces;
 
 use Closure;
 use Countable;
-use Intervention\Image\Encoders\AutoEncoder;
-use Intervention\Image\Exceptions\AnimationException;
-use Intervention\Image\Exceptions\RuntimeException;
-use Intervention\Image\FileExtension;
-use Intervention\Image\Geometry\Bezier;
-use Intervention\Image\Geometry\Circle;
-use Intervention\Image\Geometry\Ellipse;
-use Intervention\Image\Geometry\Line;
-use Intervention\Image\Geometry\Polygon;
-use Intervention\Image\Geometry\Rectangle;
-use Intervention\Image\MediaType;
-use Intervention\Image\Origin;
+use Kanhaiyanigam05\Image\Encoders\AutoEncoder;
+use Kanhaiyanigam05\Image\Exceptions\AnimationException;
+use Kanhaiyanigam05\Image\Exceptions\RuntimeException;
+use Kanhaiyanigam05\Image\FileExtension;
+use Kanhaiyanigam05\Image\Geometry\Bezier;
+use Kanhaiyanigam05\Image\Geometry\Circle;
+use Kanhaiyanigam05\Image\Geometry\Ellipse;
+use Kanhaiyanigam05\Image\Geometry\Line;
+use Kanhaiyanigam05\Image\Geometry\Polygon;
+use Kanhaiyanigam05\Image\Geometry\Rectangle;
+use Kanhaiyanigam05\Image\MediaType;
+use Kanhaiyanigam05\Image\Origin;
 use IteratorAggregate;
 
 /**
@@ -48,7 +48,7 @@ interface ImageInterface extends IteratorAggregate, Countable
     /**
      * Return width of current image
      *
-     * @link https://image.intervention.io/v3/basics/meta-information#read-the-pixel-width
+     * @link https://image.Kanhaiyanigam05.io/v3/basics/meta-information#read-the-pixel-width
      *
      * @throws RuntimeException
      */
@@ -57,7 +57,7 @@ interface ImageInterface extends IteratorAggregate, Countable
     /**
      * Return height of current image
      *
-     * @link https://image.intervention.io/v3/basics/meta-information#read-the-pixel-height
+     * @link https://image.Kanhaiyanigam05.io/v3/basics/meta-information#read-the-pixel-height
      *
      * @throws RuntimeException
      */
@@ -66,7 +66,7 @@ interface ImageInterface extends IteratorAggregate, Countable
     /**
      * Return size of current image
      *
-     * @link https://image.intervention.io/v3/basics/meta-information#read-the-image-size-as-an-object
+     * @link https://image.Kanhaiyanigam05.io/v3/basics/meta-information#read-the-image-size-as-an-object
      *
      * @throws RuntimeException
      */
@@ -75,7 +75,7 @@ interface ImageInterface extends IteratorAggregate, Countable
     /**
      * Encode image with given encoder
      *
-     * @link https://image.intervention.io/v3/basics/image-output#encode-images
+     * @link https://image.Kanhaiyanigam05.io/v3/basics/image-output#encode-images
      *
      * @throws RuntimeException
      */
@@ -85,7 +85,7 @@ interface ImageInterface extends IteratorAggregate, Countable
      * Save the image to the specified path in the file system. If no path is
      * given, the image will be saved at its original location.
      *
-     * @link https://image.intervention.io/v3/basics/image-output#encode--save-combined
+     * @link https://image.Kanhaiyanigam05.io/v3/basics/image-output#encode--save-combined
      *
      * @throws RuntimeException
      */
@@ -94,7 +94,7 @@ interface ImageInterface extends IteratorAggregate, Countable
     /**
      * Apply given modifier to current image
      *
-     * @link https://image.intervention.io/v3/modifying-images/custom-modifiers
+     * @link https://image.Kanhaiyanigam05.io/v3/modifying-images/custom-modifiers
      *
      * @throws RuntimeException
      */
@@ -110,7 +110,7 @@ interface ImageInterface extends IteratorAggregate, Countable
     /**
      * Determine if current image is animated
      *
-     * @link https://image.intervention.io/v3/modifying-images/animations#check-the-current-image-instance-for-animation
+     * @link https://image.Kanhaiyanigam05.io/v3/modifying-images/animations#check-the-current-image-instance-for-animation
      */
     public function isAnimated(): bool;
 
@@ -122,7 +122,7 @@ interface ImageInterface extends IteratorAggregate, Countable
      * string values must represent a percentage value between '0%' and '100%'
      * and the respective frame position is only determined approximately.
      *
-     * @link https://image.intervention.io/v3/modifying-images/animations#remove-animation
+     * @link https://image.Kanhaiyanigam05.io/v3/modifying-images/animations#remove-animation
      *
      * @throws RuntimeException
      */
@@ -131,7 +131,7 @@ interface ImageInterface extends IteratorAggregate, Countable
     /**
      * Extract animation frames based on given values and discard the rest
      *
-     * @link https://image.intervention.io/v3/modifying-images/animations#change-the-animation-iteration-count
+     * @link https://image.Kanhaiyanigam05.io/v3/modifying-images/animations#change-the-animation-iteration-count
      *
      * @throws RuntimeException
      */
@@ -140,21 +140,21 @@ interface ImageInterface extends IteratorAggregate, Countable
     /**
      * Return loop count of animated image
      *
-     * @link https://image.intervention.io/v3/modifying-images/animations#read-the-animation-iteration-count
+     * @link https://image.Kanhaiyanigam05.io/v3/modifying-images/animations#read-the-animation-iteration-count
      */
     public function loops(): int;
 
     /**
      * Set loop count of animated image
      *
-     * @link https://image.intervention.io/v3/modifying-images/animations#change-the-animation-iteration-count
+     * @link https://image.Kanhaiyanigam05.io/v3/modifying-images/animations#change-the-animation-iteration-count
      */
     public function setLoops(int $loops): self;
 
     /**
      * Return exif data of current image
      *
-     * @link https://image.intervention.io/v3/basics/meta-information#exif-information
+     * @link https://image.Kanhaiyanigam05.io/v3/basics/meta-information#exif-information
      */
     public function exif(?string $query = null): mixed;
 
@@ -166,7 +166,7 @@ interface ImageInterface extends IteratorAggregate, Countable
     /**
      * Return image resolution/density
      *
-     * @link https://image.intervention.io/v3/basics/meta-information#image-resolution
+     * @link https://image.Kanhaiyanigam05.io/v3/basics/meta-information#image-resolution
      *
      * @throws RuntimeException
      */
@@ -175,7 +175,7 @@ interface ImageInterface extends IteratorAggregate, Countable
     /**
      * Set image resolution
      *
-     * @link https://image.intervention.io/v3/basics/meta-information#image-resolution
+     * @link https://image.Kanhaiyanigam05.io/v3/basics/meta-information#image-resolution
      *
      * @throws RuntimeException
      */
@@ -184,7 +184,7 @@ interface ImageInterface extends IteratorAggregate, Countable
     /**
      * Get the colorspace of the image
      *
-     * @link https://image.intervention.io/v3/basics/colors#read-the-image-colorspace
+     * @link https://image.Kanhaiyanigam05.io/v3/basics/colors#read-the-image-colorspace
      *
      * @throws RuntimeException
      */
@@ -193,7 +193,7 @@ interface ImageInterface extends IteratorAggregate, Countable
     /**
      * Transform image to given colorspace
      *
-     * @link https://image.intervention.io/v3/basics/colors#change-the-image-colorspace
+     * @link https://image.Kanhaiyanigam05.io/v3/basics/colors#change-the-image-colorspace
      *
      * @throws RuntimeException
      */
@@ -202,7 +202,7 @@ interface ImageInterface extends IteratorAggregate, Countable
     /**
      * Return color of pixel at given position on given frame position
      *
-     * @link https://image.intervention.io/v3/basics/colors#color-information
+     * @link https://image.Kanhaiyanigam05.io/v3/basics/colors#color-information
      *
      * @throws RuntimeException
      */
@@ -211,7 +211,7 @@ interface ImageInterface extends IteratorAggregate, Countable
     /**
      * Return all colors of pixel at given position for all frames of image
      *
-     * @link https://image.intervention.io/v3/basics/colors#color-information
+     * @link https://image.Kanhaiyanigam05.io/v3/basics/colors#color-information
      *
      * @throws RuntimeException
      */
@@ -243,7 +243,7 @@ interface ImageInterface extends IteratorAggregate, Countable
     /**
      * Retrieve ICC color profile of image
      *
-     * @link https://image.intervention.io/v3/basics/colors#color-profiles
+     * @link https://image.Kanhaiyanigam05.io/v3/basics/colors#color-profiles
      *
      * @throws RuntimeException
      */
@@ -252,7 +252,7 @@ interface ImageInterface extends IteratorAggregate, Countable
     /**
      * Set given icc color profile to image
      *
-     * @link https://image.intervention.io/v3/basics/colors#color-profiles
+     * @link https://image.Kanhaiyanigam05.io/v3/basics/colors#color-profiles
      *
      * @throws RuntimeException
      */
@@ -261,7 +261,7 @@ interface ImageInterface extends IteratorAggregate, Countable
     /**
      * Remove ICC color profile from the current image
      *
-     * @link https://image.intervention.io/v3/basics/colors#color-profiles
+     * @link https://image.Kanhaiyanigam05.io/v3/basics/colors#color-profiles
      *
      * @throws RuntimeException
      */
@@ -270,7 +270,7 @@ interface ImageInterface extends IteratorAggregate, Countable
     /**
      * Apply color quantization to the current image
      *
-     * @link https://image.intervention.io/v3/modifying-images/effects#reduce-colors
+     * @link https://image.Kanhaiyanigam05.io/v3/modifying-images/effects#reduce-colors
      *
      * @throws RuntimeException
      */
@@ -279,7 +279,7 @@ interface ImageInterface extends IteratorAggregate, Countable
     /**
      * Sharpen the current image with given strength
      *
-     * @link https://image.intervention.io/v3/modifying-images/effects#sharpening-effect
+     * @link https://image.Kanhaiyanigam05.io/v3/modifying-images/effects#sharpening-effect
      *
      * @throws RuntimeException
      */
@@ -288,7 +288,7 @@ interface ImageInterface extends IteratorAggregate, Countable
     /**
      * Turn image into a greyscale version
      *
-     * @link https://image.intervention.io/v3/modifying-images/effects#convert-image-to-a-greyscale-version
+     * @link https://image.Kanhaiyanigam05.io/v3/modifying-images/effects#convert-image-to-a-greyscale-version
      *
      * @throws RuntimeException
      */
@@ -297,7 +297,7 @@ interface ImageInterface extends IteratorAggregate, Countable
     /**
      * Adjust brightness of the current image
      *
-     * @link https://image.intervention.io/v3/modifying-images/effects#change-the-image-brightness
+     * @link https://image.Kanhaiyanigam05.io/v3/modifying-images/effects#change-the-image-brightness
      *
      * @throws RuntimeException
      */
@@ -306,7 +306,7 @@ interface ImageInterface extends IteratorAggregate, Countable
     /**
      * Adjust color contrast of the current image
      *
-     * @link https://image.intervention.io/v3/modifying-images/effects#change-the-image-contrast
+     * @link https://image.Kanhaiyanigam05.io/v3/modifying-images/effects#change-the-image-contrast
      *
      * @throws RuntimeException
      */
@@ -315,7 +315,7 @@ interface ImageInterface extends IteratorAggregate, Countable
     /**
      * Apply gamma correction on the current image
      *
-     * @link https://image.intervention.io/v3/modifying-images/effects#gamma-correction
+     * @link https://image.Kanhaiyanigam05.io/v3/modifying-images/effects#gamma-correction
      *
      * @throws RuntimeException
      */
@@ -324,7 +324,7 @@ interface ImageInterface extends IteratorAggregate, Countable
     /**
      * Adjust the intensity of the RGB color channels
      *
-     * @link https://image.intervention.io/v3/modifying-images/effects#color-correction
+     * @link https://image.Kanhaiyanigam05.io/v3/modifying-images/effects#color-correction
      *
      * @throws RuntimeException
      */
@@ -333,7 +333,7 @@ interface ImageInterface extends IteratorAggregate, Countable
     /**
      * Mirror the current image horizontally
      *
-     * @link https://image.intervention.io/v3/modifying-images/effects#mirror-image-vertically
+     * @link https://image.Kanhaiyanigam05.io/v3/modifying-images/effects#mirror-image-vertically
      *
      * @throws RuntimeException
      */
@@ -342,7 +342,7 @@ interface ImageInterface extends IteratorAggregate, Countable
     /**
      * Mirror the current image vertically
      *
-     * @link https://image.intervention.io/v3/modifying-images/effects#mirror-image-horizontally
+     * @link https://image.Kanhaiyanigam05.io/v3/modifying-images/effects#mirror-image-horizontally
      *
      * @throws RuntimeException
      */
@@ -351,7 +351,7 @@ interface ImageInterface extends IteratorAggregate, Countable
     /**
      * Blur current image by given strength
      *
-     * @link https://image.intervention.io/v3/modifying-images/effects#blur-effect
+     * @link https://image.Kanhaiyanigam05.io/v3/modifying-images/effects#blur-effect
      *
      * @throws RuntimeException
      */
@@ -360,7 +360,7 @@ interface ImageInterface extends IteratorAggregate, Countable
     /**
      * Invert the colors of the current image
      *
-     * @link https://image.intervention.io/v3/modifying-images/effects#invert-colors
+     * @link https://image.Kanhaiyanigam05.io/v3/modifying-images/effects#invert-colors
      *
      * @throws RuntimeException
      */
@@ -369,7 +369,7 @@ interface ImageInterface extends IteratorAggregate, Countable
     /**
      * Apply pixelation filter effect on current image
      *
-     * @link https://image.intervention.io/v3/modifying-images/effects#pixelation-effect
+     * @link https://image.Kanhaiyanigam05.io/v3/modifying-images/effects#pixelation-effect
      *
      * @throws RuntimeException
      */
@@ -378,7 +378,7 @@ interface ImageInterface extends IteratorAggregate, Countable
     /**
      * Rotate current image by given angle
      *
-     * @link https://image.intervention.io/v3/modifying-images/effects#image-rotation
+     * @link https://image.Kanhaiyanigam05.io/v3/modifying-images/effects#image-rotation
      *
      * @param string $background
      * @throws RuntimeException
@@ -388,7 +388,7 @@ interface ImageInterface extends IteratorAggregate, Countable
     /**
      * Rotate the image to be upright according to exif information
      *
-     * @link https://image.intervention.io/v3/modifying-images/effects#image-orientation-according-to-exif-data
+     * @link https://image.Kanhaiyanigam05.io/v3/modifying-images/effects#image-orientation-according-to-exif-data
      *
      * @throws RuntimeException
      */
@@ -397,7 +397,7 @@ interface ImageInterface extends IteratorAggregate, Countable
     /**
      * Draw text on image
      *
-     * @link https://image.intervention.io/v3/modifying-images/text-fonts
+     * @link https://image.Kanhaiyanigam05.io/v3/modifying-images/text-fonts
      *
      * @throws RuntimeException
      */
@@ -406,7 +406,7 @@ interface ImageInterface extends IteratorAggregate, Countable
     /**
      * Resize image to the given width and/or height
      *
-     * @link https://image.intervention.io/v3/modifying-images/resizing#simple-image-resizing
+     * @link https://image.Kanhaiyanigam05.io/v3/modifying-images/resizing#simple-image-resizing
      *
      * @throws RuntimeException
      */
@@ -415,7 +415,7 @@ interface ImageInterface extends IteratorAggregate, Countable
     /**
      * Resize image to the given width and/or height without exceeding the original dimensions
      *
-     * @link https://image.intervention.io/v3/modifying-images/resizing#resize-without-exceeding-the-original-size
+     * @link https://image.Kanhaiyanigam05.io/v3/modifying-images/resizing#resize-without-exceeding-the-original-size
      *
      * @throws RuntimeException
      */
@@ -424,7 +424,7 @@ interface ImageInterface extends IteratorAggregate, Countable
     /**
      * Resize image to the given width and/or height and keep the original aspect ratio
      *
-     * @link https://image.intervention.io/v3/modifying-images/resizing#resize-images-proportionally
+     * @link https://image.Kanhaiyanigam05.io/v3/modifying-images/resizing#resize-images-proportionally
      *
      * @throws RuntimeException
      */
@@ -434,7 +434,7 @@ interface ImageInterface extends IteratorAggregate, Countable
      * Resize image to the given width and/or height, keep the original aspect ratio
      * and do not exceed the original image width or height
      *
-     * @link https://image.intervention.io/v3/modifying-images/resizing#scale-images-but-do-not-exceed-the-original-size
+     * @link https://image.Kanhaiyanigam05.io/v3/modifying-images/resizing#scale-images-but-do-not-exceed-the-original-size
      *
      * @throws RuntimeException
      */
@@ -446,7 +446,7 @@ interface ImageInterface extends IteratorAggregate, Countable
      * then positioned on the original and cropped, before this result is resized
      * to the desired size using the arguments
      *
-     * @link https://image.intervention.io/v3/modifying-images/resizing#cropping--resizing-combined
+     * @link https://image.Kanhaiyanigam05.io/v3/modifying-images/resizing#cropping--resizing-combined
      *
      * @throws RuntimeException
      */
@@ -455,7 +455,7 @@ interface ImageInterface extends IteratorAggregate, Countable
     /**
      * Same as cover() but do not exceed the original image size
      *
-     * @link https://image.intervention.io/v3/modifying-images/resizing#fitted-resizing-without-exceeding-the-original-size
+     * @link https://image.Kanhaiyanigam05.io/v3/modifying-images/resizing#fitted-resizing-without-exceeding-the-original-size
      *
      * @throws RuntimeException
      */
@@ -467,7 +467,7 @@ interface ImageInterface extends IteratorAggregate, Countable
      * is fixed. A background color can be passed to define the color of the
      * new emerging areas.
      *
-     * @link https://image.intervention.io/v3/modifying-images/resizing#resize-image-boundaries-without-resampling-the-original-image
+     * @link https://image.Kanhaiyanigam05.io/v3/modifying-images/resizing#resize-image-boundaries-without-resampling-the-original-image
      *
      * @throws RuntimeException
      */
@@ -483,7 +483,7 @@ interface ImageInterface extends IteratorAggregate, Countable
      * for the width and height, which will be added or subtracted to the
      * original image size.
      *
-     * @link https://image.intervention.io/v3/modifying-images/resizing#resize-image-boundaries-relative-to-the-original
+     * @link https://image.Kanhaiyanigam05.io/v3/modifying-images/resizing#resize-image-boundaries-relative-to-the-original
      *
      * @throws RuntimeException
      */
@@ -503,7 +503,7 @@ interface ImageInterface extends IteratorAggregate, Countable
      * but possibly new empty areas on the sides of the result image. These are
      * filled with the specified background color.
      *
-     * @link https://image.intervention.io/v3/modifying-images/resizing#resizing--padding-combined
+     * @link https://image.Kanhaiyanigam05.io/v3/modifying-images/resizing#resizing--padding-combined
      *
      * @param string $background
      * @throws RuntimeException
@@ -519,7 +519,7 @@ interface ImageInterface extends IteratorAggregate, Countable
      * This method does the same as pad(), but the original image is also scaled
      * up if the target size exceeds the original size.
      *
-     * @link https://image.intervention.io/v3/modifying-images/resizing#padded-resizing-with-upscaling
+     * @link https://image.Kanhaiyanigam05.io/v3/modifying-images/resizing#padded-resizing-with-upscaling
      *
      * @param string $background
      * @throws RuntimeException
@@ -536,7 +536,7 @@ interface ImageInterface extends IteratorAggregate, Countable
      * height at a given position. Define optional x,y offset coordinates
      * to move the cutout by the given amount of pixels.
      *
-     * @link https://image.intervention.io/v3/modifying-images/resizing#cut-out-a-rectangular-part
+     * @link https://image.Kanhaiyanigam05.io/v3/modifying-images/resizing#cut-out-a-rectangular-part
      *
      * @throws RuntimeException
      */
@@ -552,7 +552,7 @@ interface ImageInterface extends IteratorAggregate, Countable
     /**
      * Trim the image by removing border areas of similar color within a the given tolerance
      *
-     * @link https://image.intervention.io/v3/modifying-images/resizing#remove-border-areas-in-similar-color
+     * @link https://image.Kanhaiyanigam05.io/v3/modifying-images/resizing#remove-border-areas-in-similar-color
      *
      * @throws RuntimeException
      * @throws AnimationException
@@ -562,7 +562,7 @@ interface ImageInterface extends IteratorAggregate, Countable
     /**
      * Place another image into the current image instance
      *
-     * @link https://image.intervention.io/v3/modifying-images/inserting#insert-images
+     * @link https://image.Kanhaiyanigam05.io/v3/modifying-images/inserting#insert-images
      *
      * @throws RuntimeException
      */
@@ -584,7 +584,7 @@ interface ImageInterface extends IteratorAggregate, Countable
      *
      * If no coordinates are specified, the entire image area is filled.
      *
-     * @link https://image.intervention.io/v3/modifying-images/drawing#fill-images-with-color
+     * @link https://image.Kanhaiyanigam05.io/v3/modifying-images/drawing#fill-images-with-color
      *
      * @throws RuntimeException
      */
@@ -593,7 +593,7 @@ interface ImageInterface extends IteratorAggregate, Countable
     /**
      * Draw a single pixel at given position defined by the coordinates x and y in a given color.
      *
-     * @link https://image.intervention.io/v3/modifying-images/drawing#draw-pixels
+     * @link https://image.Kanhaiyanigam05.io/v3/modifying-images/drawing#draw-pixels
      *
      * @throws RuntimeException
      */
@@ -602,7 +602,7 @@ interface ImageInterface extends IteratorAggregate, Countable
     /**
      * Draw a rectangle on the current image
      *
-     * @link https://image.intervention.io/v3/modifying-images/drawing#draw-a-rectangle
+     * @link https://image.Kanhaiyanigam05.io/v3/modifying-images/drawing#draw-a-rectangle
      *
      * @throws RuntimeException
      */
@@ -611,7 +611,7 @@ interface ImageInterface extends IteratorAggregate, Countable
     /**
      * Draw ellipse on the current image
      *
-     * @link https://image.intervention.io/v3/modifying-images/drawing#draw-ellipses
+     * @link https://image.Kanhaiyanigam05.io/v3/modifying-images/drawing#draw-ellipses
      *
      * @throws RuntimeException
      */
@@ -620,7 +620,7 @@ interface ImageInterface extends IteratorAggregate, Countable
     /**
      * Draw circle on the current image
      *
-     * @link https://image.intervention.io/v3/modifying-images/drawing#draw-a-circle
+     * @link https://image.Kanhaiyanigam05.io/v3/modifying-images/drawing#draw-a-circle
      *
      * @throws RuntimeException
      */
@@ -629,7 +629,7 @@ interface ImageInterface extends IteratorAggregate, Countable
     /**
      * Draw a polygon on the current image
      *
-     * @link https://image.intervention.io/v3/modifying-images/drawing#draw-a-polygon
+     * @link https://image.Kanhaiyanigam05.io/v3/modifying-images/drawing#draw-a-polygon
      *
      * @throws RuntimeException
      */
@@ -638,7 +638,7 @@ interface ImageInterface extends IteratorAggregate, Countable
     /**
      * Draw a line on the current image
      *
-     * @link https://image.intervention.io/v3/modifying-images/drawing#draw-a-line
+     * @link https://image.Kanhaiyanigam05.io/v3/modifying-images/drawing#draw-a-line
      *
      * @throws RuntimeException
      */
@@ -647,7 +647,7 @@ interface ImageInterface extends IteratorAggregate, Countable
     /**
      * Draw a bezier curve on the current image
      *
-     * @link https://image.intervention.io/v3/modifying-images/drawing#draw-bezier-curves
+     * @link https://image.Kanhaiyanigam05.io/v3/modifying-images/drawing#draw-bezier-curves
      *
      * @throws RuntimeException
      */
@@ -657,7 +657,7 @@ interface ImageInterface extends IteratorAggregate, Countable
      * Encode image to given media (mime) type. If no type is given the image
      * will be encoded to the format of the originally read image.
      *
-     * @link https://image.intervention.io/v3/basics/image-output#encode-images-by-media-mime-type
+     * @link https://image.Kanhaiyanigam05.io/v3/basics/image-output#encode-images-by-media-mime-type
      *
      * @throws RuntimeException
      */
@@ -668,7 +668,7 @@ interface ImageInterface extends IteratorAggregate, Countable
      * extension is given the image will be encoded to the format of the
      * originally read image.
      *
-     * @link https://image.intervention.io/v3/basics/image-output#encode-images-by-file-extension
+     * @link https://image.Kanhaiyanigam05.io/v3/basics/image-output#encode-images-by-file-extension
      *
      * @throws RuntimeException
      */
@@ -682,7 +682,7 @@ interface ImageInterface extends IteratorAggregate, Countable
      * the given file path extension is given the image will be encoded to
      * the format of the originally read image.
      *
-     * @link https://image.intervention.io/v3/basics/image-output#encode-images-by-file-path
+     * @link https://image.Kanhaiyanigam05.io/v3/basics/image-output#encode-images-by-file-path
      *
      * @throws RuntimeException
      */
@@ -691,7 +691,7 @@ interface ImageInterface extends IteratorAggregate, Countable
     /**
      * Encode image to JPEG format
      *
-     * @link https://image.intervention.io/v3/basics/image-output#encode-jpeg-format
+     * @link https://image.Kanhaiyanigam05.io/v3/basics/image-output#encode-jpeg-format
      *
      * @throws RuntimeException
      */
@@ -700,7 +700,7 @@ interface ImageInterface extends IteratorAggregate, Countable
     /**
      * Encode image to Jpeg2000 format
      *
-     * @link https://image.intervention.io/v3/basics/image-output#encode-jpeg-2000-format
+     * @link https://image.Kanhaiyanigam05.io/v3/basics/image-output#encode-jpeg-2000-format
      *
      * @throws RuntimeException
      */
@@ -709,7 +709,7 @@ interface ImageInterface extends IteratorAggregate, Countable
     /**
      * Encode image to Webp format
      *
-     * @link https://image.intervention.io/v3/basics/image-output#encode-webp-format
+     * @link https://image.Kanhaiyanigam05.io/v3/basics/image-output#encode-webp-format
      *
      * @throws RuntimeException
      */
@@ -718,7 +718,7 @@ interface ImageInterface extends IteratorAggregate, Countable
     /**
      * Encode image to PNG format
      *
-     * @link https://image.intervention.io/v3/basics/image-output#encode-png-format
+     * @link https://image.Kanhaiyanigam05.io/v3/basics/image-output#encode-png-format
      *
      * @throws RuntimeException
      */
@@ -727,7 +727,7 @@ interface ImageInterface extends IteratorAggregate, Countable
     /**
      * Encode image to GIF format
      *
-     * @link https://image.intervention.io/v3/basics/image-output#encode-gif-format
+     * @link https://image.Kanhaiyanigam05.io/v3/basics/image-output#encode-gif-format
      *
      * @throws RuntimeException
      */
@@ -736,7 +736,7 @@ interface ImageInterface extends IteratorAggregate, Countable
     /**
      * Encode image to Bitmap format
      *
-     * @link https://image.intervention.io/v3/basics/image-output#encode-windows-bitmap-format
+     * @link https://image.Kanhaiyanigam05.io/v3/basics/image-output#encode-windows-bitmap-format
      *
      * @throws RuntimeException
      */
@@ -745,7 +745,7 @@ interface ImageInterface extends IteratorAggregate, Countable
     /**
      * Encode image to AVIF format
      *
-     * @link https://image.intervention.io/v3/basics/image-output#encode-av1-image-file-format-avif
+     * @link https://image.Kanhaiyanigam05.io/v3/basics/image-output#encode-av1-image-file-format-avif
      *
      * @throws RuntimeException
      */
@@ -754,7 +754,7 @@ interface ImageInterface extends IteratorAggregate, Countable
     /**
      * Encode image to TIFF format
      *
-     * @link https://image.intervention.io/v3/basics/image-output#encode-tiff-format
+     * @link https://image.Kanhaiyanigam05.io/v3/basics/image-output#encode-tiff-format
      *
      * @throws RuntimeException
      */
@@ -763,7 +763,7 @@ interface ImageInterface extends IteratorAggregate, Countable
     /**
      * Encode image to HEIC format
      *
-     * @link https://image.intervention.io/v3/basics/image-output#encode-heic-format
+     * @link https://image.Kanhaiyanigam05.io/v3/basics/image-output#encode-heic-format
      *
      * @throws RuntimeException
      */

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Analyzers;
+namespace Kanhaiyanigam05\Image\Analyzers;
 
-use Intervention\Image\Drivers\SpecializableAnalyzer;
+use Kanhaiyanigam05\Image\Drivers\SpecializableAnalyzer;
 
 class PixelColorsAnalyzer extends SpecializableAnalyzer
 {

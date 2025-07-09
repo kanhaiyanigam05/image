@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Drivers\Imagick\Analyzers;
+namespace Kanhaiyanigam05\Image\Drivers\Imagick\Analyzers;
 
-use Intervention\Image\Analyzers\ProfileAnalyzer as GenericProfileAnalyzer;
-use Intervention\Image\Colors\Profile;
-use Intervention\Image\Exceptions\ColorException;
-use Intervention\Image\Interfaces\ImageInterface;
-use Intervention\Image\Interfaces\SpecializedInterface;
+use Kanhaiyanigam05\Image\Analyzers\ProfileAnalyzer as GenericProfileAnalyzer;
+use Kanhaiyanigam05\Image\Colors\Profile;
+use Kanhaiyanigam05\Image\Exceptions\ColorException;
+use Kanhaiyanigam05\Image\Interfaces\ImageInterface;
+use Kanhaiyanigam05\Image\Interfaces\SpecializedInterface;
 
 class ProfileAnalyzer extends GenericProfileAnalyzer implements SpecializedInterface
 {

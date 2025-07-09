@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Typography;
+namespace Kanhaiyanigam05\Image\Typography;
 
-use Intervention\Image\Collection;
+use Kanhaiyanigam05\Image\Collection;
 
 class TextBlock extends Collection
 {

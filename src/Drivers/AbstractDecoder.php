@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Drivers;
+namespace Kanhaiyanigam05\Image\Drivers;
 
 use Exception;
-use Intervention\Image\Collection;
-use Intervention\Image\Interfaces\CollectionInterface;
-use Intervention\Image\Interfaces\DecoderInterface;
-use Intervention\Image\Traits\CanBuildFilePointer;
+use Kanhaiyanigam05\Image\Collection;
+use Kanhaiyanigam05\Image\Interfaces\CollectionInterface;
+use Kanhaiyanigam05\Image\Interfaces\DecoderInterface;
+use Kanhaiyanigam05\Image\Traits\CanBuildFilePointer;
 
 abstract class AbstractDecoder implements DecoderInterface
 {

@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Geometry\Factories;
+namespace Kanhaiyanigam05\Image\Geometry\Factories;
 
 use Closure;
-use Intervention\Image\Geometry\Point;
-use Intervention\Image\Geometry\Polygon;
-use Intervention\Image\Interfaces\DrawableFactoryInterface;
-use Intervention\Image\Interfaces\DrawableInterface;
+use Kanhaiyanigam05\Image\Geometry\Point;
+use Kanhaiyanigam05\Image\Geometry\Polygon;
+use Kanhaiyanigam05\Image\Interfaces\DrawableFactoryInterface;
+use Kanhaiyanigam05\Image\Interfaces\DrawableInterface;
 
 class PolygonFactory implements DrawableFactoryInterface
 {

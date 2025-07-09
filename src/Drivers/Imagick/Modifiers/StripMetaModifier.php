@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Drivers\Imagick\Modifiers;
+namespace Kanhaiyanigam05\Image\Drivers\Imagick\Modifiers;
 
-use Intervention\Image\Collection;
-use Intervention\Image\Interfaces\ImageInterface;
-use Intervention\Image\Interfaces\ModifierInterface;
-use Intervention\Image\Interfaces\SpecializedInterface;
+use Kanhaiyanigam05\Image\Collection;
+use Kanhaiyanigam05\Image\Interfaces\ImageInterface;
+use Kanhaiyanigam05\Image\Interfaces\ModifierInterface;
+use Kanhaiyanigam05\Image\Interfaces\SpecializedInterface;
 
 class StripMetaModifier implements ModifierInterface, SpecializedInterface
 {
     /**
      * {@inheritdoc}
      *
-     * @see Intervention\Image\Interfaces\ModifierInterface::apply()
+     * @see Kanhaiyanigam05\Image\Interfaces\ModifierInterface::apply()
      */
     public function apply(ImageInterface $image): ImageInterface
     {

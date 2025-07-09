@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Drivers\Imagick;
+namespace Kanhaiyanigam05\Image\Drivers\Imagick;
 
 use Imagick;
 use ImagickException;
 use ImagickPixel;
-use Intervention\Image\Drivers\AbstractFrame;
-use Intervention\Image\Exceptions\InputException;
-use Intervention\Image\Geometry\Rectangle;
-use Intervention\Image\Image;
-use Intervention\Image\Interfaces\DriverInterface;
-use Intervention\Image\Interfaces\FrameInterface;
-use Intervention\Image\Interfaces\ImageInterface;
-use Intervention\Image\Interfaces\SizeInterface;
+use Kanhaiyanigam05\Image\Drivers\AbstractFrame;
+use Kanhaiyanigam05\Image\Exceptions\InputException;
+use Kanhaiyanigam05\Image\Geometry\Rectangle;
+use Kanhaiyanigam05\Image\Image;
+use Kanhaiyanigam05\Image\Interfaces\DriverInterface;
+use Kanhaiyanigam05\Image\Interfaces\FrameInterface;
+use Kanhaiyanigam05\Image\Interfaces\ImageInterface;
+use Kanhaiyanigam05\Image\Interfaces\SizeInterface;
 
 class Frame extends AbstractFrame implements FrameInterface
 {

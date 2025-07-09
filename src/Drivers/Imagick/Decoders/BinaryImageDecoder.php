@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Drivers\Imagick\Decoders;
+namespace Kanhaiyanigam05\Image\Drivers\Imagick\Decoders;
 
 use Imagick;
 use ImagickException;
-use Intervention\Image\Exceptions\DecoderException;
-use Intervention\Image\Format;
-use Intervention\Image\Interfaces\ColorInterface;
-use Intervention\Image\Interfaces\ImageInterface;
+use Kanhaiyanigam05\Image\Exceptions\DecoderException;
+use Kanhaiyanigam05\Image\Format;
+use Kanhaiyanigam05\Image\Interfaces\ColorInterface;
+use Kanhaiyanigam05\Image\Interfaces\ImageInterface;
 
 class BinaryImageDecoder extends NativeObjectDecoder
 {

@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Geometry\Factories;
+namespace Kanhaiyanigam05\Image\Geometry\Factories;
 
 use Closure;
-use Intervention\Image\Geometry\Circle;
-use Intervention\Image\Geometry\Point;
-use Intervention\Image\Interfaces\DrawableFactoryInterface;
-use Intervention\Image\Interfaces\DrawableInterface;
-use Intervention\Image\Interfaces\PointInterface;
+use Kanhaiyanigam05\Image\Geometry\Circle;
+use Kanhaiyanigam05\Image\Geometry\Point;
+use Kanhaiyanigam05\Image\Interfaces\DrawableFactoryInterface;
+use Kanhaiyanigam05\Image\Interfaces\DrawableInterface;
+use Kanhaiyanigam05\Image\Interfaces\PointInterface;
 
 class CircleFactory implements DrawableFactoryInterface
 {

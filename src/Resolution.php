@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image;
+namespace Kanhaiyanigam05\Image;
 
 use ArrayIterator;
-use Intervention\Image\Interfaces\ResolutionInterface;
+use Kanhaiyanigam05\Image\Interfaces\ResolutionInterface;
 use IteratorAggregate;
 use Stringable;
 use Traversable;

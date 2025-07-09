@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Typography;
+namespace Kanhaiyanigam05\Image\Typography;
 
-use Intervention\Image\Exceptions\FontException;
-use Intervention\Image\Interfaces\FontInterface;
+use Kanhaiyanigam05\Image\Exceptions\FontException;
+use Kanhaiyanigam05\Image\Interfaces\FontInterface;
 
 class Font implements FontInterface
 {

@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Drivers;
+namespace Kanhaiyanigam05\Image\Drivers;
 
-use Intervention\Image\Exceptions\FontException;
-use Intervention\Image\Geometry\Point;
-use Intervention\Image\Geometry\Rectangle;
-use Intervention\Image\Interfaces\FontInterface;
-use Intervention\Image\Interfaces\FontProcessorInterface;
-use Intervention\Image\Interfaces\PointInterface;
-use Intervention\Image\Typography\Line;
-use Intervention\Image\Typography\TextBlock;
+use Kanhaiyanigam05\Image\Exceptions\FontException;
+use Kanhaiyanigam05\Image\Geometry\Point;
+use Kanhaiyanigam05\Image\Geometry\Rectangle;
+use Kanhaiyanigam05\Image\Interfaces\FontInterface;
+use Kanhaiyanigam05\Image\Interfaces\FontProcessorInterface;
+use Kanhaiyanigam05\Image\Interfaces\PointInterface;
+use Kanhaiyanigam05\Image\Typography\Line;
+use Kanhaiyanigam05\Image\Typography\TextBlock;
 
 abstract class AbstractFontProcessor implements FontProcessorInterface
 {

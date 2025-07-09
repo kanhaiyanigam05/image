@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Drivers\Gd\Analyzers;
+namespace Kanhaiyanigam05\Image\Drivers\Gd\Analyzers;
 
-use Intervention\Image\Analyzers\ColorspaceAnalyzer as GenericColorspaceAnalyzer;
-use Intervention\Image\Colors\Rgb\Colorspace;
-use Intervention\Image\Interfaces\ImageInterface;
-use Intervention\Image\Interfaces\SpecializedInterface;
+use Kanhaiyanigam05\Image\Analyzers\ColorspaceAnalyzer as GenericColorspaceAnalyzer;
+use Kanhaiyanigam05\Image\Colors\Rgb\Colorspace;
+use Kanhaiyanigam05\Image\Interfaces\ImageInterface;
+use Kanhaiyanigam05\Image\Interfaces\SpecializedInterface;
 
 class ColorspaceAnalyzer extends GenericColorspaceAnalyzer implements SpecializedInterface
 {

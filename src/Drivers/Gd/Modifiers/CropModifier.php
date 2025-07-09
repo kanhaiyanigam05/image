@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Drivers\Gd\Modifiers;
+namespace Kanhaiyanigam05\Image\Drivers\Gd\Modifiers;
 
-use Intervention\Image\Drivers\Gd\Cloner;
-use Intervention\Image\Exceptions\ColorException;
-use Intervention\Image\Interfaces\ColorInterface;
-use Intervention\Image\Interfaces\FrameInterface;
-use Intervention\Image\Interfaces\ImageInterface;
-use Intervention\Image\Interfaces\SizeInterface;
-use Intervention\Image\Interfaces\SpecializedInterface;
-use Intervention\Image\Modifiers\CropModifier as GenericCropModifier;
+use Kanhaiyanigam05\Image\Drivers\Gd\Cloner;
+use Kanhaiyanigam05\Image\Exceptions\ColorException;
+use Kanhaiyanigam05\Image\Interfaces\ColorInterface;
+use Kanhaiyanigam05\Image\Interfaces\FrameInterface;
+use Kanhaiyanigam05\Image\Interfaces\ImageInterface;
+use Kanhaiyanigam05\Image\Interfaces\SizeInterface;
+use Kanhaiyanigam05\Image\Interfaces\SpecializedInterface;
+use Kanhaiyanigam05\Image\Modifiers\CropModifier as GenericCropModifier;
 
 class CropModifier extends GenericCropModifier implements SpecializedInterface
 {

@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Drivers\Gd;
+namespace Kanhaiyanigam05\Image\Drivers\Gd;
 
 use GdImage;
-use Intervention\Image\Colors\Rgb\Channels\Alpha;
-use Intervention\Image\Colors\Rgb\Color;
-use Intervention\Image\Exceptions\ColorException;
-use Intervention\Image\Geometry\Rectangle;
-use Intervention\Image\Interfaces\ColorInterface;
-use Intervention\Image\Interfaces\SizeInterface;
+use Kanhaiyanigam05\Image\Colors\Rgb\Channels\Alpha;
+use Kanhaiyanigam05\Image\Colors\Rgb\Color;
+use Kanhaiyanigam05\Image\Exceptions\ColorException;
+use Kanhaiyanigam05\Image\Geometry\Rectangle;
+use Kanhaiyanigam05\Image\Interfaces\ColorInterface;
+use Kanhaiyanigam05\Image\Interfaces\SizeInterface;
 
 class Cloner
 {

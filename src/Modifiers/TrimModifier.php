@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Modifiers;
+namespace Kanhaiyanigam05\Image\Modifiers;
 
-use Intervention\Image\Drivers\SpecializableModifier;
+use Kanhaiyanigam05\Image\Drivers\SpecializableModifier;
 
 class TrimModifier extends SpecializableModifier
 {

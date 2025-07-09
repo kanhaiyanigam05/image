@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Geometry\Factories;
+namespace Kanhaiyanigam05\Image\Geometry\Factories;
 
 class Drawable
 {

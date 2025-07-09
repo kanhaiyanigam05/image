@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Typography;
+namespace Kanhaiyanigam05\Image\Typography;
 
 use ArrayIterator;
 use Countable;
-use Intervention\Image\Geometry\Point;
-use Intervention\Image\Interfaces\PointInterface;
+use Kanhaiyanigam05\Image\Geometry\Point;
+use Kanhaiyanigam05\Image\Interfaces\PointInterface;
 use IteratorAggregate;
 use Stringable;
 use Traversable;

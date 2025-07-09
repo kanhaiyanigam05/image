@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Decoders;
+namespace Kanhaiyanigam05\Image\Decoders;
 
-use Intervention\Image\Drivers\SpecializableDecoder;
+use Kanhaiyanigam05\Image\Drivers\SpecializableDecoder;
 
 class EncodedImageObjectDecoder extends SpecializableDecoder
 {

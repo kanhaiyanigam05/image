@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Encoders;
+namespace Kanhaiyanigam05\Image\Encoders;
 
-use Intervention\Image\Drivers\SpecializableEncoder;
+use Kanhaiyanigam05\Image\Drivers\SpecializableEncoder;
 
 class JpegEncoder extends SpecializableEncoder
 {

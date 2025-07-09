@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Modifiers;
+namespace Kanhaiyanigam05\Image\Modifiers;
 
 class ResizeCanvasRelativeModifier extends ResizeCanvasModifier
 {

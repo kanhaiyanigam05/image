@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Drivers\Gd\Modifiers;
+namespace Kanhaiyanigam05\Image\Drivers\Gd\Modifiers;
 
-use Intervention\Image\Interfaces\ImageInterface;
-use Intervention\Image\Interfaces\SpecializedInterface;
-use Intervention\Image\Modifiers\PixelateModifier as GenericPixelateModifier;
+use Kanhaiyanigam05\Image\Interfaces\ImageInterface;
+use Kanhaiyanigam05\Image\Interfaces\SpecializedInterface;
+use Kanhaiyanigam05\Image\Modifiers\PixelateModifier as GenericPixelateModifier;
 
 class PixelateModifier extends GenericPixelateModifier implements SpecializedInterface
 {

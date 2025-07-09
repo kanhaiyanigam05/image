@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Traits;
+namespace Kanhaiyanigam05\Image\Traits;
 
-use Intervention\Image\Exceptions\DriverException;
-use Intervention\Image\Interfaces\DriverInterface;
-use Intervention\Image\Interfaces\SpecializableInterface;
+use Kanhaiyanigam05\Image\Exceptions\DriverException;
+use Kanhaiyanigam05\Image\Interfaces\DriverInterface;
+use Kanhaiyanigam05\Image\Interfaces\SpecializableInterface;
 use ReflectionClass;
 
 trait CanBeDriverSpecialized

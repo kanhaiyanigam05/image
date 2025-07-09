@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Geometry\Traits;
+namespace Kanhaiyanigam05\Image\Geometry\Traits;
 
 trait HasBorder
 {

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image;
+namespace Kanhaiyanigam05\Image;
 
-use Intervention\Image\Exceptions\InputException;
+use Kanhaiyanigam05\Image\Exceptions\InputException;
 
 class Config
 {

@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Drivers\Imagick\Analyzers;
+namespace Kanhaiyanigam05\Image\Drivers\Imagick\Analyzers;
 
 use Imagick;
-use Intervention\Image\Analyzers\ColorspaceAnalyzer as GenericColorspaceAnalyzer;
-use Intervention\Image\Interfaces\ImageInterface;
-use Intervention\Image\Colors\Cmyk\Colorspace as CmykColorspace;
-use Intervention\Image\Colors\Rgb\Colorspace as RgbColorspace;
-use Intervention\Image\Interfaces\SpecializedInterface;
+use Kanhaiyanigam05\Image\Analyzers\ColorspaceAnalyzer as GenericColorspaceAnalyzer;
+use Kanhaiyanigam05\Image\Interfaces\ImageInterface;
+use Kanhaiyanigam05\Image\Colors\Cmyk\Colorspace as CmykColorspace;
+use Kanhaiyanigam05\Image\Colors\Rgb\Colorspace as RgbColorspace;
+use Kanhaiyanigam05\Image\Interfaces\SpecializedInterface;
 
 class ColorspaceAnalyzer extends GenericColorspaceAnalyzer implements SpecializedInterface
 {

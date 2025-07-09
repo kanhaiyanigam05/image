@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Geometry\Factories;
+namespace Kanhaiyanigam05\Image\Geometry\Factories;
 
 use Closure;
-use Intervention\Image\Geometry\Point;
-use Intervention\Image\Geometry\Line;
-use Intervention\Image\Interfaces\DrawableFactoryInterface;
-use Intervention\Image\Interfaces\DrawableInterface;
+use Kanhaiyanigam05\Image\Geometry\Point;
+use Kanhaiyanigam05\Image\Geometry\Line;
+use Kanhaiyanigam05\Image\Interfaces\DrawableFactoryInterface;
+use Kanhaiyanigam05\Image\Interfaces\DrawableInterface;
 
 class LineFactory implements DrawableFactoryInterface
 {

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Drivers\Gd\Analyzers;
+namespace Kanhaiyanigam05\Image\Drivers\Gd\Analyzers;
 
-use Intervention\Image\Collection;
-use Intervention\Image\Interfaces\ImageInterface;
+use Kanhaiyanigam05\Image\Collection;
+use Kanhaiyanigam05\Image\Interfaces\ImageInterface;
 
 class PixelColorsAnalyzer extends PixelColorAnalyzer
 {

@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Colors\Rgb;
+namespace Kanhaiyanigam05\Image\Colors\Rgb;
 
-use Intervention\Image\Colors\AbstractColor;
-use Intervention\Image\Colors\Rgb\Channels\Blue;
-use Intervention\Image\Colors\Rgb\Channels\Green;
-use Intervention\Image\Colors\Rgb\Channels\Red;
-use Intervention\Image\Colors\Rgb\Channels\Alpha;
-use Intervention\Image\InputHandler;
-use Intervention\Image\Interfaces\ColorChannelInterface;
-use Intervention\Image\Interfaces\ColorInterface;
-use Intervention\Image\Interfaces\ColorspaceInterface;
+use Kanhaiyanigam05\Image\Colors\AbstractColor;
+use Kanhaiyanigam05\Image\Colors\Rgb\Channels\Blue;
+use Kanhaiyanigam05\Image\Colors\Rgb\Channels\Green;
+use Kanhaiyanigam05\Image\Colors\Rgb\Channels\Red;
+use Kanhaiyanigam05\Image\Colors\Rgb\Channels\Alpha;
+use Kanhaiyanigam05\Image\InputHandler;
+use Kanhaiyanigam05\Image\Interfaces\ColorChannelInterface;
+use Kanhaiyanigam05\Image\Interfaces\ColorInterface;
+use Kanhaiyanigam05\Image\Interfaces\ColorspaceInterface;
 
 class Color extends AbstractColor
 {

@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Drivers\Gd\Decoders;
+namespace Kanhaiyanigam05\Image\Drivers\Gd\Decoders;
 
 use SplFileInfo;
-use Intervention\Image\Exceptions\DecoderException;
-use Intervention\Image\Interfaces\ColorInterface;
-use Intervention\Image\Interfaces\DecoderInterface;
-use Intervention\Image\Interfaces\ImageInterface;
+use Kanhaiyanigam05\Image\Exceptions\DecoderException;
+use Kanhaiyanigam05\Image\Interfaces\ColorInterface;
+use Kanhaiyanigam05\Image\Interfaces\DecoderInterface;
+use Kanhaiyanigam05\Image\Interfaces\ImageInterface;
 
 class SplFileInfoImageDecoder extends FilePathImageDecoder implements DecoderInterface
 {

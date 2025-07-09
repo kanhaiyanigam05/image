@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Modifiers;
+namespace Kanhaiyanigam05\Image\Modifiers;
 
-use Intervention\Image\Geometry\Bezier;
-use Intervention\Image\Interfaces\DrawableInterface;
+use Kanhaiyanigam05\Image\Geometry\Bezier;
+use Kanhaiyanigam05\Image\Interfaces\DrawableInterface;
 
 class DrawBezierModifier extends AbstractDrawModifier
 {

@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Drivers\Gd\Modifiers;
+namespace Kanhaiyanigam05\Image\Drivers\Gd\Modifiers;
 
-use Intervention\Image\Drivers\Gd\Cloner;
-use Intervention\Image\Interfaces\ImageInterface;
-use Intervention\Image\Interfaces\SpecializedInterface;
-use Intervention\Image\Modifiers\BlendTransparencyModifier as GenericBlendTransparencyModifier;
+use Kanhaiyanigam05\Image\Drivers\Gd\Cloner;
+use Kanhaiyanigam05\Image\Interfaces\ImageInterface;
+use Kanhaiyanigam05\Image\Interfaces\SpecializedInterface;
+use Kanhaiyanigam05\Image\Modifiers\BlendTransparencyModifier as GenericBlendTransparencyModifier;
 
 class BlendTransparencyModifier extends GenericBlendTransparencyModifier implements SpecializedInterface
 {

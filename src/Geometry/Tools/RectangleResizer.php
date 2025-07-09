@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Geometry\Tools;
+namespace Kanhaiyanigam05\Image\Geometry\Tools;
 
-use Intervention\Image\Exceptions\GeometryException;
-use Intervention\Image\Geometry\Rectangle;
-use Intervention\Image\Interfaces\SizeInterface;
+use Kanhaiyanigam05\Image\Exceptions\GeometryException;
+use Kanhaiyanigam05\Image\Geometry\Rectangle;
+use Kanhaiyanigam05\Image\Interfaces\SizeInterface;
 
 class RectangleResizer
 {

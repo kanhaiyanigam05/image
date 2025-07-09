@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Drivers\Gd;
+namespace Kanhaiyanigam05\Image\Drivers\Gd;
 
-use Intervention\Image\Collection;
-use Intervention\Image\Exceptions\AnimationException;
-use Intervention\Image\Interfaces\CoreInterface;
-use Intervention\Image\Interfaces\FrameInterface;
+use Kanhaiyanigam05\Image\Collection;
+use Kanhaiyanigam05\Image\Exceptions\AnimationException;
+use Kanhaiyanigam05\Image\Interfaces\CoreInterface;
+use Kanhaiyanigam05\Image\Interfaces\FrameInterface;
 
 class Core extends Collection implements CoreInterface
 {

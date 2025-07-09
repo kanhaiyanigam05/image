@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Encoders;
+namespace Kanhaiyanigam05\Image\Encoders;
 
-use Intervention\Image\Interfaces\ImageInterface;
-use Intervention\Image\Interfaces\EncodedImageInterface;
+use Kanhaiyanigam05\Image\Interfaces\ImageInterface;
+use Kanhaiyanigam05\Image\Interfaces\EncodedImageInterface;
 
 class FilePathEncoder extends FileExtensionEncoder
 {

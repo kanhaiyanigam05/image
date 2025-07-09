@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Drivers\Gd\Encoders;
+namespace Kanhaiyanigam05\Image\Drivers\Gd\Encoders;
 
 use GdImage;
-use Intervention\Image\Drivers\Gd\Cloner;
-use Intervention\Image\EncodedImage;
-use Intervention\Image\Encoders\PngEncoder as GenericPngEncoder;
-use Intervention\Image\Exceptions\AnimationException;
-use Intervention\Image\Exceptions\ColorException;
-use Intervention\Image\Exceptions\RuntimeException;
-use Intervention\Image\Interfaces\ImageInterface;
-use Intervention\Image\Interfaces\SpecializedInterface;
+use Kanhaiyanigam05\Image\Drivers\Gd\Cloner;
+use Kanhaiyanigam05\Image\EncodedImage;
+use Kanhaiyanigam05\Image\Encoders\PngEncoder as GenericPngEncoder;
+use Kanhaiyanigam05\Image\Exceptions\AnimationException;
+use Kanhaiyanigam05\Image\Exceptions\ColorException;
+use Kanhaiyanigam05\Image\Exceptions\RuntimeException;
+use Kanhaiyanigam05\Image\Interfaces\ImageInterface;
+use Kanhaiyanigam05\Image\Interfaces\SpecializedInterface;
 
 class PngEncoder extends GenericPngEncoder implements SpecializedInterface
 {

@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Drivers\Imagick\Encoders;
+namespace Kanhaiyanigam05\Image\Drivers\Imagick\Encoders;
 
 use Imagick;
 use ImagickPixel;
-use Intervention\Image\Drivers\Imagick\Modifiers\StripMetaModifier;
-use Intervention\Image\EncodedImage;
-use Intervention\Image\Encoders\WebpEncoder as GenericWebpEncoder;
-use Intervention\Image\Interfaces\EncodedImageInterface;
-use Intervention\Image\Interfaces\ImageInterface;
-use Intervention\Image\Interfaces\SpecializedInterface;
+use Kanhaiyanigam05\Image\Drivers\Imagick\Modifiers\StripMetaModifier;
+use Kanhaiyanigam05\Image\EncodedImage;
+use Kanhaiyanigam05\Image\Encoders\WebpEncoder as GenericWebpEncoder;
+use Kanhaiyanigam05\Image\Interfaces\EncodedImageInterface;
+use Kanhaiyanigam05\Image\Interfaces\ImageInterface;
+use Kanhaiyanigam05\Image\Interfaces\SpecializedInterface;
 
 class WebpEncoder extends GenericWebpEncoder implements SpecializedInterface
 {

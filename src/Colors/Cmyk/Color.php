@@ -2,18 +2,18 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Colors\Cmyk;
+namespace Kanhaiyanigam05\Image\Colors\Cmyk;
 
-use Intervention\Image\Colors\AbstractColor;
-use Intervention\Image\Colors\Cmyk\Channels\Cyan;
-use Intervention\Image\Colors\Cmyk\Channels\Magenta;
-use Intervention\Image\Colors\Cmyk\Channels\Yellow;
-use Intervention\Image\Colors\Cmyk\Channels\Key;
-use Intervention\Image\Colors\Rgb\Colorspace as RgbColorspace;
-use Intervention\Image\InputHandler;
-use Intervention\Image\Interfaces\ColorChannelInterface;
-use Intervention\Image\Interfaces\ColorInterface;
-use Intervention\Image\Interfaces\ColorspaceInterface;
+use Kanhaiyanigam05\Image\Colors\AbstractColor;
+use Kanhaiyanigam05\Image\Colors\Cmyk\Channels\Cyan;
+use Kanhaiyanigam05\Image\Colors\Cmyk\Channels\Magenta;
+use Kanhaiyanigam05\Image\Colors\Cmyk\Channels\Yellow;
+use Kanhaiyanigam05\Image\Colors\Cmyk\Channels\Key;
+use Kanhaiyanigam05\Image\Colors\Rgb\Colorspace as RgbColorspace;
+use Kanhaiyanigam05\Image\InputHandler;
+use Kanhaiyanigam05\Image\Interfaces\ColorChannelInterface;
+use Kanhaiyanigam05\Image\Interfaces\ColorInterface;
+use Kanhaiyanigam05\Image\Interfaces\ColorspaceInterface;
 
 class Color extends AbstractColor
 {

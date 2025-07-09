@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image;
+namespace Kanhaiyanigam05\Image;
 
-use Intervention\Image\Exceptions\NotWritableException;
-use Intervention\Image\Exceptions\RuntimeException;
-use Intervention\Image\Interfaces\FileInterface;
-use Intervention\Image\Traits\CanBuildFilePointer;
+use Kanhaiyanigam05\Image\Exceptions\NotWritableException;
+use Kanhaiyanigam05\Image\Exceptions\RuntimeException;
+use Kanhaiyanigam05\Image\Interfaces\FileInterface;
+use Kanhaiyanigam05\Image\Traits\CanBuildFilePointer;
 use Stringable;
 
 class File implements FileInterface, Stringable

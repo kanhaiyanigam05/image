@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Colors\Rgb\Channels;
+namespace Kanhaiyanigam05\Image\Colors\Rgb\Channels;
 
-use Intervention\Image\Colors\AbstractColorChannel;
+use Kanhaiyanigam05\Image\Colors\AbstractColorChannel;
 
 class Red extends AbstractColorChannel
 {

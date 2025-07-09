@@ -2,18 +2,18 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Drivers\Imagick;
+namespace Kanhaiyanigam05\Image\Drivers\Imagick;
 
 use Imagick;
 use ImagickDraw;
 use ImagickDrawException;
 use ImagickException;
 use ImagickPixel;
-use Intervention\Image\Drivers\AbstractFontProcessor;
-use Intervention\Image\Exceptions\FontException;
-use Intervention\Image\Geometry\Rectangle;
-use Intervention\Image\Interfaces\FontInterface;
-use Intervention\Image\Interfaces\SizeInterface;
+use Kanhaiyanigam05\Image\Drivers\AbstractFontProcessor;
+use Kanhaiyanigam05\Image\Exceptions\FontException;
+use Kanhaiyanigam05\Image\Geometry\Rectangle;
+use Kanhaiyanigam05\Image\Interfaces\FontInterface;
+use Kanhaiyanigam05\Image\Interfaces\SizeInterface;
 
 class FontProcessor extends AbstractFontProcessor
 {

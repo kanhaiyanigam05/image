@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Geometry;
+namespace Kanhaiyanigam05\Image\Geometry;
 
 use ArrayIterator;
-use Intervention\Image\Interfaces\PointInterface;
+use Kanhaiyanigam05\Image\Interfaces\PointInterface;
 use IteratorAggregate;
 use Traversable;
 

@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Geometry;
+namespace Kanhaiyanigam05\Image\Geometry;
 
-use Intervention\Image\Geometry\Traits\HasBackgroundColor;
-use Intervention\Image\Geometry\Traits\HasBorder;
-use Intervention\Image\Interfaces\DrawableInterface;
-use Intervention\Image\Interfaces\PointInterface;
+use Kanhaiyanigam05\Image\Geometry\Traits\HasBackgroundColor;
+use Kanhaiyanigam05\Image\Geometry\Traits\HasBorder;
+use Kanhaiyanigam05\Image\Interfaces\DrawableInterface;
+use Kanhaiyanigam05\Image\Interfaces\PointInterface;
 
 class Line implements DrawableInterface
 {

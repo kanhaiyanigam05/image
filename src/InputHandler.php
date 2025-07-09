@@ -2,33 +2,33 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image;
+namespace Kanhaiyanigam05\Image;
 
-use Intervention\Image\Colors\Cmyk\Decoders\StringColorDecoder as CmykStringColorDecoder;
-use Intervention\Image\Colors\Hsl\Decoders\StringColorDecoder as HslStringColorDecoder;
-use Intervention\Image\Colors\Hsv\Decoders\StringColorDecoder as HsvStringColorDecoder;
-use Intervention\Image\Colors\Rgb\Decoders\HexColorDecoder as RgbHexColorDecoder;
-use Intervention\Image\Colors\Rgb\Decoders\HtmlColornameDecoder;
-use Intervention\Image\Colors\Rgb\Decoders\StringColorDecoder as RgbStringColorDecoder;
-use Intervention\Image\Colors\Rgb\Decoders\TransparentColorDecoder;
-use Intervention\Image\Decoders\Base64ImageDecoder;
-use Intervention\Image\Decoders\BinaryImageDecoder;
-use Intervention\Image\Decoders\ColorObjectDecoder;
-use Intervention\Image\Decoders\DataUriImageDecoder;
-use Intervention\Image\Decoders\EncodedImageObjectDecoder;
-use Intervention\Image\Decoders\FilePathImageDecoder;
-use Intervention\Image\Decoders\FilePointerImageDecoder;
-use Intervention\Image\Decoders\ImageObjectDecoder;
-use Intervention\Image\Decoders\NativeObjectDecoder;
-use Intervention\Image\Decoders\SplFileInfoImageDecoder;
-use Intervention\Image\Exceptions\DecoderException;
-use Intervention\Image\Exceptions\DriverException;
-use Intervention\Image\Exceptions\NotSupportedException;
-use Intervention\Image\Interfaces\ColorInterface;
-use Intervention\Image\Interfaces\DecoderInterface;
-use Intervention\Image\Interfaces\DriverInterface;
-use Intervention\Image\Interfaces\ImageInterface;
-use Intervention\Image\Interfaces\InputHandlerInterface;
+use Kanhaiyanigam05\Image\Colors\Cmyk\Decoders\StringColorDecoder as CmykStringColorDecoder;
+use Kanhaiyanigam05\Image\Colors\Hsl\Decoders\StringColorDecoder as HslStringColorDecoder;
+use Kanhaiyanigam05\Image\Colors\Hsv\Decoders\StringColorDecoder as HsvStringColorDecoder;
+use Kanhaiyanigam05\Image\Colors\Rgb\Decoders\HexColorDecoder as RgbHexColorDecoder;
+use Kanhaiyanigam05\Image\Colors\Rgb\Decoders\HtmlColornameDecoder;
+use Kanhaiyanigam05\Image\Colors\Rgb\Decoders\StringColorDecoder as RgbStringColorDecoder;
+use Kanhaiyanigam05\Image\Colors\Rgb\Decoders\TransparentColorDecoder;
+use Kanhaiyanigam05\Image\Decoders\Base64ImageDecoder;
+use Kanhaiyanigam05\Image\Decoders\BinaryImageDecoder;
+use Kanhaiyanigam05\Image\Decoders\ColorObjectDecoder;
+use Kanhaiyanigam05\Image\Decoders\DataUriImageDecoder;
+use Kanhaiyanigam05\Image\Decoders\EncodedImageObjectDecoder;
+use Kanhaiyanigam05\Image\Decoders\FilePathImageDecoder;
+use Kanhaiyanigam05\Image\Decoders\FilePointerImageDecoder;
+use Kanhaiyanigam05\Image\Decoders\ImageObjectDecoder;
+use Kanhaiyanigam05\Image\Decoders\NativeObjectDecoder;
+use Kanhaiyanigam05\Image\Decoders\SplFileInfoImageDecoder;
+use Kanhaiyanigam05\Image\Exceptions\DecoderException;
+use Kanhaiyanigam05\Image\Exceptions\DriverException;
+use Kanhaiyanigam05\Image\Exceptions\NotSupportedException;
+use Kanhaiyanigam05\Image\Interfaces\ColorInterface;
+use Kanhaiyanigam05\Image\Interfaces\DecoderInterface;
+use Kanhaiyanigam05\Image\Interfaces\DriverInterface;
+use Kanhaiyanigam05\Image\Interfaces\ImageInterface;
+use Kanhaiyanigam05\Image\Interfaces\InputHandlerInterface;
 
 class InputHandler implements InputHandlerInterface
 {

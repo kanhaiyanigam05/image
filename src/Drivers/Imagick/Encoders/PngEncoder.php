@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Drivers\Imagick\Encoders;
+namespace Kanhaiyanigam05\Image\Drivers\Imagick\Encoders;
 
 use Imagick;
-use Intervention\Image\EncodedImage;
-use Intervention\Image\Encoders\PngEncoder as GenericPngEncoder;
-use Intervention\Image\Interfaces\EncodedImageInterface;
-use Intervention\Image\Interfaces\ImageInterface;
-use Intervention\Image\Interfaces\SpecializedInterface;
+use Kanhaiyanigam05\Image\EncodedImage;
+use Kanhaiyanigam05\Image\Encoders\PngEncoder as GenericPngEncoder;
+use Kanhaiyanigam05\Image\Interfaces\EncodedImageInterface;
+use Kanhaiyanigam05\Image\Interfaces\ImageInterface;
+use Kanhaiyanigam05\Image\Interfaces\SpecializedInterface;
 
 class PngEncoder extends GenericPngEncoder implements SpecializedInterface
 {

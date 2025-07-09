@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Drivers\Gd\Analyzers;
+namespace Kanhaiyanigam05\Image\Drivers\Gd\Analyzers;
 
-use Intervention\Image\Analyzers\HeightAnalyzer as GenericHeightAnalyzer;
-use Intervention\Image\Interfaces\ImageInterface;
-use Intervention\Image\Interfaces\SpecializedInterface;
+use Kanhaiyanigam05\Image\Analyzers\HeightAnalyzer as GenericHeightAnalyzer;
+use Kanhaiyanigam05\Image\Interfaces\ImageInterface;
+use Kanhaiyanigam05\Image\Interfaces\SpecializedInterface;
 
 class HeightAnalyzer extends GenericHeightAnalyzer implements SpecializedInterface
 {

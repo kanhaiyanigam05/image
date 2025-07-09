@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Intervention\Image\Drivers\Gd\Decoders;
+namespace Kanhaiyanigam05\Image\Drivers\Gd\Decoders;
 
-use Intervention\Image\Drivers\SpecializableDecoder;
-use Intervention\Image\Exceptions\DecoderException;
-use Intervention\Image\Interfaces\SpecializedInterface;
-use Intervention\Image\MediaType;
+use Kanhaiyanigam05\Image\Drivers\SpecializableDecoder;
+use Kanhaiyanigam05\Image\Exceptions\DecoderException;
+use Kanhaiyanigam05\Image\Interfaces\SpecializedInterface;
+use Kanhaiyanigam05\Image\MediaType;
 
 abstract class AbstractDecoder extends SpecializableDecoder implements SpecializedInterface
 {
