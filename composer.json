@@ -19,7 +19,7 @@
     "require": {
         "php": "^8.2",
         "ext-mbstring": "*",
-        "Kanhaiyanigam05/gif": "^4.2"
+        "intervention/gif": "^4.2"
     },
     "require-dev": {
         "phpunit/phpunit": "^12.2.6",
@@ -33,12 +33,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Kanhaiyanigam05\\Image\\": "src"
+            "intervention\\Image\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Kanhaiyanigam05\\Image\\Tests\\": "tests"
+            "intervention\\Image\\Tests\\": "tests"
         }
     },
     "config": {
